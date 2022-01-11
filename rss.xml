@@ -10,8 +10,50 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 10 Jan 2022 20:00:13 +0800</pubDate>
-        <lastBuildDate>Mon, 10 Jan 2022 20:00:13 +0800</lastBuildDate>
+        <pubDate>Tue, 11 Jan 2022 13:57:33 +0800</pubDate>
+        <lastBuildDate>Tue, 11 Jan 2022 13:57:33 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://sjxwjk.github.io/project/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</guid>
+            <title></title>
+            <link>https://sjxwjk.github.io/project/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
+            <pubDate>Tue, 11 Jan 2022 13:57:33 +0800</pubDate>
+            <description><![CDATA[ &lt;hr&gt;
+&lt;h2 id=&#34;mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床&#34;&gt;#&lt;/a&gt; Mac 系统利用阿里云 OSS+Mweb+Picgo 为基于 Hexo 的博客搭建图床&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;                「侵删致谢」
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;最近搭建好 Hexo 博客，昨天开始迁移博客的时候，思考图片存储问题。于是，开始搜索，看到大家都是用一个云 + Picgo+Typora 搭建了一个图床。前几天在找 Markdown 编辑器的时候，最初的想法也是用 Typora，但是奈何官网进不去，遂转入 MWeb。&lt;/p&gt;
+&lt;h1 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h1&gt;
+&lt;h2 id=&#34;阿里云oss&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#阿里云oss&#34;&gt;#&lt;/a&gt; 阿里云 OSS&lt;/h2&gt;
+&lt;p&gt;1. 链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYWxpeXVuLmNvbS9wcm9kdWN0L29zcw==&#34;&gt;https://www.aliyun.com/product/oss&lt;/span&gt;&lt;br&gt;
+2. 开通：一年 9 块钱&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111410220.png&#34; alt&gt;&lt;br&gt;
+ 3. 创建 Bucket 列表&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111414857.png&#34; alt&gt;&lt;br&gt;
+ 4. 生成 Access Key 和 AccessKey Secret&lt;br&gt;
+（在下图右下角常见入口，左侧第二个）&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111415577.png&#34; alt&gt;&lt;/p&gt;
+&lt;h2 id=&#34;picgo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#picgo&#34;&gt;#&lt;/a&gt; Picgo&lt;/h2&gt;
+&lt;p&gt;1. 下载：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dvL3JlbGVhc2Vz&#34;&gt;https://github.com/Molunerfinn/PicGo/releases&lt;/span&gt;&lt;br&gt;
+ 按照作者的教程来就行，需要注意的就是 Mac 会提示风险 app，在安全里允许一下就好了&lt;br&gt;
+ 2. 配置：如图&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111444858.png&#34; alt&gt;&lt;br&gt;
+值得说的是，我在上传图片的时候报 403，说说解决办法，首先在 PicGO 设置里看起服务，确保自己配置信息没有写错。&lt;br&gt;
+上传失败一定在 PicGo 中看看日志文件。&lt;/p&gt;
+&lt;h2 id=&#34;mweb&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mweb&#34;&gt;#&lt;/a&gt; Mweb&lt;/h2&gt;
+&lt;p&gt;1. 下载：APP Store&lt;br&gt;
+2. 配置&lt;br&gt;
+ (1) 在这里选择偏好设置 —&amp;gt;&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111425766.png&#34; alt&gt;&lt;br&gt;
+(2) 按照下图点击 —&amp;gt;&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111431149.png&#34; alt&gt;&lt;br&gt;
+(3) 填写配置信息&lt;br&gt;
+&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111435044.png&#34; alt&gt;&lt;br&gt;
+（4）填写好后点击确定，发布服务。&lt;/p&gt;
+&lt;h1 id=&#34;使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h1&gt;
+&lt;p&gt;上述完成后就可以使用了，有图片就上传到 PicGo，然后复制图片代码，在写博客的时候粘贴即可。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://sjxwjk.github.io/project/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</guid>
             <title>一些常用的优秀网站和软件</title>
