@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sjxwjk.github.io/project</id>
+    <id>https://sjxwjk.github.io/zzblog</id>
     <title>ZZ</title>
     <subtitle></subtitle>
-    <icon>https://sjxwjk.github.io/project/images/favicon.ico</icon>
-    <link href="https://sjxwjk.github.io/project" />
+    <icon>https://sjxwjk.github.io/zzblog/images/favicon.ico</icon>
+    <link href="https://sjxwjk.github.io/zzblog" />
     <author>
       <name>苜蓿</name>
     </author>
     <updated>2022-01-11T05:57:33.962Z</updated>
     <entry>
-        <id>https://sjxwjk.github.io/project/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</id>
+        <id>https://sjxwjk.github.io/zzblog/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</id>
         <title></title>
-        <link rel="alternate" href="https://sjxwjk.github.io/project/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/zzblog/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
         <content type="html">&lt;hr&gt;
 &lt;h2 id=&#34;mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床&#34;&gt;#&lt;/a&gt; Mac 系统利用阿里云 OSS+Mweb+Picgo 为基于 Hexo 的博客搭建图床&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;                「侵删致谢」
@@ -52,9 +52,9 @@
         <updated>2022-01-11T05:57:33.962Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/project/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</id>
+        <id>https://sjxwjk.github.io/zzblog/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</id>
         <title>一些常用的优秀网站和软件</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/project/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/zzblog/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2019 年 06 月 26 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;/p&gt;
 &lt;p&gt;1. 可以生成比较好看的代码截图：&lt;br&gt;
@@ -72,9 +72,9 @@
         <updated>2022-01-10T12:00:13.230Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/project/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/</id>
+        <id>https://sjxwjk.github.io/zzblog/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/</id>
         <title>Citespace使用方法/经验（汇总）</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/project/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/zzblog/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2019 年 10 月 28 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;/p&gt;
 &lt;ol&gt;
