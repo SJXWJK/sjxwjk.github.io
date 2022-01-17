@@ -20,6 +20,80 @@
         <updated>2022-01-17T10:33:18.666Z</updated>
     </entry>
     <entry>
+        <id>https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
+        <title></title>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
+        <content type="html">&lt;hr&gt;
+&lt;h2 id=&#34;编写测试用例-持续更新&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编写测试用例-持续更新&#34;&gt;#&lt;/a&gt; 编写测试用例 （持续更新&lt;/h2&gt;
+&lt;h1 id=&#34;编写测试用例的基本方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编写测试用例的基本方法&#34;&gt;#&lt;/a&gt; 编写测试用例的基本方法&lt;/h1&gt;
+&lt;h2 id=&#34;等价类划分法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#等价类划分法&#34;&gt;#&lt;/a&gt; 等价类划分法：&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1.定义：等价类划分是指分步骤的把海量的测试用例集剪的很小；
+2.等价类：某个输入域的集合，在每个集合中每个输入条件都是有效的。
+3.多用于输入框
+4.有效等价类和无效等价类
+    有效等价类：指符合需求规格说明书，输入合理的数据集合
+    无效等价类：指不符合需求规格说明书，输入不合理的数据集合
+5.例题：如计算两个1-100之间整数的和。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;边界值测定法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边界值测定法&#34;&gt;#&lt;/a&gt; 边界值测定法&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1.选取正好等于，刚刚大于，刚刚小于边界值作为测试数据。
+2.上点（有效）
+3.离点（无效）
+4.例题：1-100之间的证书中四种情况分别取上点和离点
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;因果图法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#因果图法&#34;&gt;#&lt;/a&gt; 因果图法&lt;/h2&gt;
+&lt;h2 id=&#34;场景法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#场景法&#34;&gt;#&lt;/a&gt; 场景法&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1.用例场景是通过描述流经用例的路径来确定的过程，这个流经过程要从用例开始到结束遍历其中所有基本流和备选流。
+2.基本流
+3.备选项
+4.例题：银行ATM
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;正交表法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#正交表法&#34;&gt;#&lt;/a&gt; 正交表法&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1.正交排列法能够使用最小的测试过程集合获得最大的测试覆盖率。当可能的输入数据或者输入数据的组合数量很大时，由于不可能为每个输入组合都创建测试用例，可以采用这种方法。
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+        <updated>2022-01-12T01:19:05.205Z</updated>
+    </entry>
+    <entry>
+        <id>https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
+        <title></title>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
+        <content type="html">&lt;hr&gt;
+&lt;h2 id=&#34;搭建测试环境持续更新&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#搭建测试环境持续更新&#34;&gt;#&lt;/a&gt; 搭建测试环境（持续更新）&lt;/h2&gt;
+&lt;h1 id=&#34;测试环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#测试环境&#34;&gt;#&lt;/a&gt; 测试环境&lt;/h1&gt;
+&lt;h2 id=&#34;定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#定义&#34;&gt;#&lt;/a&gt; 定义：&lt;/h2&gt;
+&lt;p&gt;测试环境是指为了完成软件测试工作所必需的计算机硬件 / 软件 / 网络设备 / 历史数据的总称。即完整的测试环境 = 硬件 + 软件 + 网络 + 数据 + 测试工具&lt;/p&gt;
+&lt;h2 id=&#34;硬件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#硬件&#34;&gt;#&lt;/a&gt; 硬件：&lt;/h2&gt;
+&lt;p&gt;1. 硬件相关的测试就是计算机操作系统。如 winsows7，8，10/Linux centos7，centos，Ubuntu，Redhat，Debian/Mac OS&lt;br&gt;
+2. 测试环境可以部署在任何一种操作系统上，根据被测软件的需求来决定。&lt;/p&gt;
+&lt;h2 id=&#34;软件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#软件&#34;&gt;#&lt;/a&gt; 软件：&lt;/h2&gt;
+&lt;p&gt;1. 被测软件与其相关依赖和交互的软件。&lt;br&gt;
+2. 依赖交互软件一般是指：JDK，tomcat，mysql，oracle 等。&lt;/p&gt;
+&lt;h2 id=&#34;网络&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#网络&#34;&gt;#&lt;/a&gt; 网络&lt;/h2&gt;
+&lt;p&gt;1. 需要规划和配置 IP 地址，部署路由和 VLAN 等。实现网络隔离和通信。&lt;br&gt;
+2. 了解 TCP，HTTP，UDP 等网络协议。&lt;br&gt;
+3. 了解 Linux 基本网络配置&lt;br&gt;
+系统的 IP 和路由配置&lt;br&gt;
+调试网络通信问题等&lt;br&gt;
+ Linux 系统命令抓包&lt;/p&gt;
+&lt;h2 id=&#34;测试工具&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#测试工具&#34;&gt;#&lt;/a&gt; 测试工具&lt;/h2&gt;
+&lt;p&gt;1. 黑盒测试：会利用各种工具来代替手工；&lt;br&gt;
+2. 压力，性能测试：同样需要借助测试工具模拟高并发，高吞吐，高持续的数据；&lt;br&gt;
+3. 常用工具&lt;br&gt;
+接口测试：postman，jmeter&lt;br&gt;
+ 自动化测试：selenium&lt;br&gt;
+ 抓包工具：fiddler，charles&lt;/p&gt;
+&lt;h2 id=&#34;数据准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据准备&#34;&gt;#&lt;/a&gt; 数据准备&lt;/h2&gt;
+&lt;p&gt;1. 一般指测试数据的准备&lt;/p&gt;
+&lt;h1 id=&#34;问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题&#34;&gt;#&lt;/a&gt; 问题&lt;/h1&gt;
+&lt;p&gt;面试官：所以 Linux 系统你是会用的对吧？具体操作步骤能简单描述一下么？你们一般会安装一些什么服务？&lt;br&gt;
+面试官：你会自己独立搭建测试环境么？你以前公司测试需要自己搭建测试环境么？&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201120952355.png&#34; alt&gt;&lt;/p&gt;
+&lt;h1 id=&#34;搭建测试环境步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#搭建测试环境步骤&#34;&gt;#&lt;/a&gt; 搭建测试环境步骤&lt;/h1&gt;
+</content>
+        <updated>2022-01-12T01:18:46.947Z</updated>
+    </entry>
+    <entry>
         <id>https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</id>
         <title></title>
         <link rel="alternate" href="https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
@@ -103,6 +177,71 @@
 &lt;/ol&gt;
 </content>
         <updated>2022-01-10T10:19:27.158Z</updated>
+    </entry>
+    <entry>
+        <id>https://sjxwjk.github.io/2022/01/10/test/Jmeter/</id>
+        <title></title>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/10/test/Jmeter/"/>
+        <content type="html">&lt;hr&gt;
+&lt;h2 id=&#34;jmeter&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#jmeter&#34;&gt;#&lt;/a&gt; Jmeter&lt;/h2&gt;
+&lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h1&gt;
+&lt;p&gt;1.JMeter 是一款由 Apache 开发的 Java 开源工具，作为软件测试重要的工具之一，可用于性能负载测试，通过创建带有断言的脚本来验证程序是否能返回期望的结果。旨在分析和衡量 Web 应用程序和各种服务的性能和负载功能行为。&lt;br&gt;
+2. 优缺点&lt;br&gt;
+优点：开源，免费，跨平台，支持多协议，小巧，功能强大。&lt;br&gt;
+缺点：不支持 IP 欺骗，无法验证 JS 程序，无法验证页面 UI，要         和 Selenium 配合完成 web2.0 的测试。&lt;br&gt;
+3. 安装流程&lt;br&gt;
+（1）需要安装 Java 环境&lt;br&gt;
+（2）下载安装&lt;br&gt;
+（3）启动&lt;br&gt;
+ 4. 项目简介&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/iShot2022-01-10%2014.07.40.png&#34; alt=&#34;iShot2022-01-10 14.07.40&#34;&gt;&lt;br&gt;
+ 需要 API 接口文档&lt;/p&gt;
+&lt;p&gt;5. 线程组的设置&lt;br&gt;
+（1）需求：发射一个 HTTP 请求，访问地址，获取所有信息：&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418009256482.jpg&#34; alt&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;media/16417768971930/16418009676560.jpg&#34; alt&gt;&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418010736810.jpg&#34; alt&gt;&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418011027367.jpg&#34; alt&gt;&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418011327056.jpg&#34; alt&gt;&lt;br&gt;
+（2）线程组相关：&lt;br&gt;
+进程：正在运行的程序&lt;br&gt;
+线程：是进程中的执行线索&lt;br&gt;
+线程组：进程中许多线程，为了方便管理，进行分组，得到线程组。&lt;/p&gt;
+&lt;p&gt;（3）并发执行和顺序执行&lt;br&gt;
+并发：多个线程同时执行&lt;br&gt;
+顺序：多个线程顺序执行&lt;/p&gt;
+&lt;p&gt;（4）两个特殊的线程组&lt;br&gt;
+ setUP 线程组：最优先执行的线程组&lt;br&gt;
+ tearDown 线程组：最后执行的线程组&lt;/p&gt;
+&lt;p&gt;（5）线程属性&lt;br&gt;
+线程数：模拟用户数&lt;br&gt;
+ Ramp- UP 时间（秒）：&lt;br&gt;
+循环次数：执行次数&lt;br&gt;
+调度器：持续时间和启动延迟&lt;br&gt;
+（6）http 请求默认值：被复用的内容封装&lt;br&gt;
+（7）信息头管理器&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418088544451.jpg&#34; alt&gt;&lt;br&gt;
+ 6. 参数化的使用&lt;br&gt;
+（1）定义 动态的获取，设置或生成数据，是一种由程序驱动代替人工驱动的数据方案，提高脚本的编写效率以及编写质量。&lt;br&gt;
+（2）实现参数化的方式&lt;br&gt;
+用户定义的变量&lt;br&gt;
+ CSV 数据文件设置&lt;br&gt;
+用户参数&lt;br&gt;
+函数&lt;br&gt;
+（3）参数化–用户定义的变量&lt;br&gt;
+调用格式：${变量名}&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418092029081.jpg&#34; alt&gt;&lt;br&gt;
+（4）参数化 -- CSV 数据文件设置&lt;br&gt;
+ CSV：逗号分隔值，是一种简洁且常见的数据存储格式&lt;br&gt;
+实现步骤：&lt;br&gt;
+使用 CSV 文件存储测试数据&lt;br&gt;
+编写被服用的新增脚本模板&lt;br&gt;
+关联脚本与数据&lt;br&gt;
+&lt;img data-src=&#34;media/16417768971930/16418095840317.jpg&#34; alt&gt;&lt;/p&gt;
+&lt;p&gt;7. 直链数据库操作&lt;br&gt;
+ 8. 断言&lt;/p&gt;
+</content>
+        <updated>2022-01-10T01:08:17.194Z</updated>
     </entry>
     <entry>
         <id>https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/</id>

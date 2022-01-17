@@ -25,12 +25,12 @@
 
   
 
-<link rel="canonical" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/">
+<link rel="canonical" href="https://sjxwjk.github.io/2022/01/10/test/Jmeter/">
 
 
 
   <title>
-置顶文章 |
+ |
 苜蓿·莱 = ZZ</title>
 <meta name="generator" content="Hexo 5.4.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -58,23 +58,23 @@
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">置顶文章
+  <h1 itemprop="name headline">
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2022-01-09 20:02:30">
+  <span class="item" title="创建时间：2022-01-10 09:08:17">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2022-01-09T20:02:30+08:00">2022-01-09</time>
+    <time itemprop="dateCreated datePublished" datetime="2022-01-10T09:08:17+08:00">2022-01-10</time>
   </span>
   <span class="item" title="本文字数">
     <span class="icon">
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>46</span>
+    <span>727</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -114,7 +114,7 @@
 
       </div>
       <div id="imgs" class="pjax">
-          <img src="https://tva4.sinaimg.cn/large/005UfWVily8gy7hyymha5j30zk0k00wy.jpg">
+          <img src="https://tva4.sinaimg.cn/large/005UfWVily8gy7hyw728uj30eu08cgmm.jpg">
       </div>
     </header>
     <div id="waves">
@@ -142,7 +142,7 @@
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/">
+  <link itemprop="mainEntityOfPage" href="https://sjxwjk.github.io/2022/01/10/test/Jmeter/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -157,8 +157,64 @@
   <div class="body md" itemprop="articleBody">
     
 
-    <p>本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。<br>
-故，可能有时间问题导致博客内容失效。</p>
+    <hr>
+<h2 id="jmeter"><a class="markdownIt-Anchor" href="#jmeter">#</a> Jmeter</h2>
+<h1 id="简介"><a class="markdownIt-Anchor" href="#简介">#</a> 简介</h1>
+<p>1.JMeter 是一款由 Apache 开发的 Java 开源工具，作为软件测试重要的工具之一，可用于性能负载测试，通过创建带有断言的脚本来验证程序是否能返回期望的结果。旨在分析和衡量 Web 应用程序和各种服务的性能和负载功能行为。<br>
+2. 优缺点<br>
+优点：开源，免费，跨平台，支持多协议，小巧，功能强大。<br>
+缺点：不支持 IP 欺骗，无法验证 JS 程序，无法验证页面 UI，要         和 Selenium 配合完成 web2.0 的测试。<br>
+3. 安装流程<br>
+（1）需要安装 Java 环境<br>
+（2）下载安装<br>
+（3）启动<br>
+ 4. 项目简介<br>
+<img data-src="media/16417768971930/iShot2022-01-10%2014.07.40.png" alt="iShot2022-01-10 14.07.40"><br>
+ 需要 API 接口文档</p>
+<p>5. 线程组的设置<br>
+（1）需求：发射一个 HTTP 请求，访问地址，获取所有信息：<br>
+<img data-src="media/16417768971930/16418009256482.jpg" alt></p>
+<p><img data-src="media/16417768971930/16418009676560.jpg" alt><br>
+<img data-src="media/16417768971930/16418010736810.jpg" alt><br>
+<img data-src="media/16417768971930/16418011027367.jpg" alt><br>
+<img data-src="media/16417768971930/16418011327056.jpg" alt><br>
+（2）线程组相关：<br>
+进程：正在运行的程序<br>
+线程：是进程中的执行线索<br>
+线程组：进程中许多线程，为了方便管理，进行分组，得到线程组。</p>
+<p>（3）并发执行和顺序执行<br>
+并发：多个线程同时执行<br>
+顺序：多个线程顺序执行</p>
+<p>（4）两个特殊的线程组<br>
+ setUP 线程组：最优先执行的线程组<br>
+ tearDown 线程组：最后执行的线程组</p>
+<p>（5）线程属性<br>
+线程数：模拟用户数<br>
+ Ramp- UP 时间（秒）：<br>
+循环次数：执行次数<br>
+调度器：持续时间和启动延迟<br>
+（6）http 请求默认值：被复用的内容封装<br>
+（7）信息头管理器<br>
+<img data-src="media/16417768971930/16418088544451.jpg" alt><br>
+ 6. 参数化的使用<br>
+（1）定义 动态的获取，设置或生成数据，是一种由程序驱动代替人工驱动的数据方案，提高脚本的编写效率以及编写质量。<br>
+（2）实现参数化的方式<br>
+用户定义的变量<br>
+ CSV 数据文件设置<br>
+用户参数<br>
+函数<br>
+（3）参数化–用户定义的变量<br>
+调用格式：${变量名}<br>
+<img data-src="media/16417768971930/16418092029081.jpg" alt><br>
+（4）参数化 -- CSV 数据文件设置<br>
+ CSV：逗号分隔值，是一种简洁且常见的数据存储格式<br>
+实现步骤：<br>
+使用 CSV 文件存储测试数据<br>
+编写被服用的新增脚本模板<br>
+关联脚本与数据<br>
+<img data-src="media/16417768971930/16418095840317.jpg" alt></p>
+<p>7. 直链数据库操作<br>
+ 8. 断言</p>
 
   </div>
 
@@ -170,9 +226,9 @@
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2022-01-17 17:38:31" itemprop="dateModified" datetime="2022-01-17T17:38:31+08:00">2022-01-17</time>
+    <time title="修改时间：2022-01-17 19:54:56" itemprop="dateModified" datetime="2022-01-17T19:54:56+08:00">2022-01-17</time>
   </span>
-  <span id="2022/01/09/置顶内容/" class="item leancloud_visitors" data-flag-title="置顶文章" title="阅读次数">
+  <span id="2022/01/10/test/Jmeter/" class="item leancloud_visitors" data-flag-title="" title="阅读次数">
       <span class="icon">
         <i class="ic i-eye"></i>
       </span>
@@ -214,7 +270,7 @@
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/" title="置顶文章">https://sjxwjk.github.io/2022/01/09/置顶内容/</a>
+    <a href="https://sjxwjk.github.io/2022/01/10/test/Jmeter/" title="">https://sjxwjk.github.io/2022/01/10/test/Jmeter/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -231,14 +287,22 @@
 
 <div class="post-nav">
     <div class="item left">
+      
+
+  <a href="/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;005UfWVily8gy7hywpziuj30jp0dw3zp.jpg" title="置顶文章">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>置顶文章</h3>
+  </a>
+
     </div>
     <div class="item right">
       
 
-  <a href="/2022/01/10/test/Jmeter/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;005UfWVily8gy7hywpziuj30jp0dw3zp.jpg" title="未命名">
+  <a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;005UfWVily8gy7hyymha5j30zk0k00wy.jpg" title="Citespace使用方法&#x2F;经验（汇总）">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>未命名</h3>
+  <h3>Citespace使用方法/经验（汇总）</h3>
   </a>
 
     </div>
@@ -257,6 +321,7 @@
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#jmeter"><span class="toc-number">1.</span> <span class="toc-text"> Jmeter</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-number"></span> <span class="toc-text"> 简介</span></a>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
@@ -323,10 +388,12 @@
 
   <ul id="quick">
     <li class="prev pjax">
+        <a href="/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
+        <a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -350,7 +417,43 @@
 <div class="breadcrumb">
 </div>
 
+    <span><a href="/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" title="未命名">未命名</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些常用的优秀网站和软件">一些常用的优秀网站和软件</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
     <span><a href="/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Citespace使用方法&#x2F;经验（汇总）">Citespace使用方法/经验（汇总）</a></span>
   </li>
 
       
@@ -377,43 +480,7 @@
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些常用的优秀网站和软件">一些常用的优秀网站和软件</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
     <span><a href="/2022/01/17/bug/bug1/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Citespace使用方法&#x2F;经验（汇总）">Citespace使用方法/经验（汇总）</a></span>
   </li>
 
   </ul>
@@ -456,7 +523,7 @@
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2022/01/09/置顶内容/',
+    path: '2022/01/10/test/Jmeter/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"

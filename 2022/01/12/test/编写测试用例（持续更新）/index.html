@@ -25,12 +25,12 @@
 
   
 
-<link rel="canonical" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/">
+<link rel="canonical" href="https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/">
 
 
 
   <title>
-置顶文章 |
+ |
 苜蓿·莱 = ZZ</title>
 <meta name="generator" content="Hexo 5.4.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -58,23 +58,23 @@
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">置顶文章
+  <h1 itemprop="name headline">
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2022-01-09 20:02:30">
+  <span class="item" title="创建时间：2022-01-12 09:19:05">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2022-01-09T20:02:30+08:00">2022-01-09</time>
+    <time itemprop="dateCreated datePublished" datetime="2022-01-12T09:19:05+08:00">2022-01-12</time>
   </span>
   <span class="item" title="本文字数">
     <span class="icon">
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>46</span>
+    <span>442</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -114,7 +114,7 @@
 
       </div>
       <div id="imgs" class="pjax">
-          <img src="https://tva4.sinaimg.cn/large/005UfWVily8gy7hyymha5j30zk0k00wy.jpg">
+          <img src="https://tva4.sinaimg.cn/large/005UfWVily8gy7i069591j30dw08pq42.jpg">
       </div>
     </header>
     <div id="waves">
@@ -142,7 +142,7 @@
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/">
+  <link itemprop="mainEntityOfPage" href="https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -157,8 +157,34 @@
   <div class="body md" itemprop="articleBody">
     
 
-    <p>本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。<br>
-故，可能有时间问题导致博客内容失效。</p>
+    <hr>
+<h2 id="编写测试用例-持续更新"><a class="markdownIt-Anchor" href="#编写测试用例-持续更新">#</a> 编写测试用例 （持续更新</h2>
+<h1 id="编写测试用例的基本方法"><a class="markdownIt-Anchor" href="#编写测试用例的基本方法">#</a> 编写测试用例的基本方法</h1>
+<h2 id="等价类划分法"><a class="markdownIt-Anchor" href="#等价类划分法">#</a> 等价类划分法：</h2>
+<pre><code>1.定义：等价类划分是指分步骤的把海量的测试用例集剪的很小；
+2.等价类：某个输入域的集合，在每个集合中每个输入条件都是有效的。
+3.多用于输入框
+4.有效等价类和无效等价类
+    有效等价类：指符合需求规格说明书，输入合理的数据集合
+    无效等价类：指不符合需求规格说明书，输入不合理的数据集合
+5.例题：如计算两个1-100之间整数的和。
+</code></pre>
+<h2 id="边界值测定法"><a class="markdownIt-Anchor" href="#边界值测定法">#</a> 边界值测定法</h2>
+<pre><code>1.选取正好等于，刚刚大于，刚刚小于边界值作为测试数据。
+2.上点（有效）
+3.离点（无效）
+4.例题：1-100之间的证书中四种情况分别取上点和离点
+</code></pre>
+<h2 id="因果图法"><a class="markdownIt-Anchor" href="#因果图法">#</a> 因果图法</h2>
+<h2 id="场景法"><a class="markdownIt-Anchor" href="#场景法">#</a> 场景法</h2>
+<pre><code>1.用例场景是通过描述流经用例的路径来确定的过程，这个流经过程要从用例开始到结束遍历其中所有基本流和备选流。
+2.基本流
+3.备选项
+4.例题：银行ATM
+</code></pre>
+<h2 id="正交表法"><a class="markdownIt-Anchor" href="#正交表法">#</a> 正交表法</h2>
+<pre><code>1.正交排列法能够使用最小的测试过程集合获得最大的测试覆盖率。当可能的输入数据或者输入数据的组合数量很大时，由于不可能为每个输入组合都创建测试用例，可以采用这种方法。
+</code></pre>
 
   </div>
 
@@ -170,9 +196,9 @@
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2022-01-17 17:38:31" itemprop="dateModified" datetime="2022-01-17T17:38:31+08:00">2022-01-17</time>
+    <time title="修改时间：2022-01-17 19:54:05" itemprop="dateModified" datetime="2022-01-17T19:54:05+08:00">2022-01-17</time>
   </span>
-  <span id="2022/01/09/置顶内容/" class="item leancloud_visitors" data-flag-title="置顶文章" title="阅读次数">
+  <span id="2022/01/12/test/编写测试用例（持续更新）/" class="item leancloud_visitors" data-flag-title="" title="阅读次数">
       <span class="icon">
         <i class="ic i-eye"></i>
       </span>
@@ -214,7 +240,7 @@
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/" title="置顶文章">https://sjxwjk.github.io/2022/01/09/置顶内容/</a>
+    <a href="https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="">https://sjxwjk.github.io/2022/01/12/test/编写测试用例（持续更新）/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -231,11 +257,19 @@
 
 <div class="post-nav">
     <div class="item left">
+      
+
+  <a href="/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;005UfWVily8gy7i0emglej31400p0787.jpg" title="未命名">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>未命名</h3>
+  </a>
+
     </div>
     <div class="item right">
       
 
-  <a href="/2022/01/10/test/Jmeter/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;005UfWVily8gy7hywpziuj30jp0dw3zp.jpg" title="未命名">
+  <a href="/2022/01/17/bug/bug1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;005UfWVily8gy7hywpziuj30jp0dw3zp.jpg" title="未命名">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>未命名</h3>
@@ -257,6 +291,7 @@
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0"><span class="toc-number">1.</span> <span class="toc-text"> 编写测试用例 （持续更新</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95"><span class="toc-number"></span> <span class="toc-text"> 编写测试用例的基本方法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AD%89%E4%BB%B7%E7%B1%BB%E5%88%92%E5%88%86%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text"> 等价类划分法：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%B9%E7%95%8C%E5%80%BC%E6%B5%8B%E5%AE%9A%E6%B3%95"><span class="toc-number">2.</span> <span class="toc-text"> 边界值测定法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%A0%E6%9E%9C%E5%9B%BE%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text"> 因果图法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%BA%E6%99%AF%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text"> 场景法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AD%A3%E4%BA%A4%E8%A1%A8%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text"> 正交表法</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
@@ -323,10 +358,12 @@
 
   <ul id="quick">
     <li class="prev pjax">
+        <a href="/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
+        <a href="/2022/01/17/bug/bug1/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -350,24 +387,6 @@
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/01/10/test/Jmeter/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
     <span><a href="/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/" title="置顶文章">置顶文章</a></span>
   </li>
 
@@ -377,25 +396,7 @@
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些常用的优秀网站和软件">一些常用的优秀网站和软件</a></span>
+    <span><a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Citespace使用方法&#x2F;经验（汇总）">Citespace使用方法/经验（汇总）</a></span>
   </li>
 
       
@@ -413,7 +414,43 @@
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Citespace使用方法&#x2F;经验（汇总）">Citespace使用方法/经验（汇总）</a></span>
+    <span><a href="/2022/01/10/test/Jmeter/" title="未命名">未命名</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" title="未命名">未命名</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些常用的优秀网站和软件">一些常用的优秀网站和软件</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="未命名">未命名</a></span>
   </li>
 
   </ul>
@@ -456,7 +493,7 @@
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2022/01/09/置顶内容/',
+    path: '2022/01/12/test/编写测试用例（持续更新）/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"
