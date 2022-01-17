@@ -10,9 +10,9 @@
     </author>
     <updated>2022-01-17T10:33:18.666Z</updated>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/17/%E5%85%AB%E9%98%BF%E5%93%A5/bug1/</id>
+        <id>https://sjxwjk.github.io/2022/01/17/bug/bug1/</id>
         <title></title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/17/%E5%85%AB%E9%98%BF%E5%93%A5/bug1/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/17/bug/bug1/"/>
         <content type="html">&lt;hr&gt;
 &lt;h2 id=&#34;eclipse-点击new菜单后没有新建java-project的解决方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#eclipse-点击new菜单后没有新建java-project的解决方案&#34;&gt;#&lt;/a&gt; eclipse 点击 new 菜单后没有新建 java project 的解决方案&lt;/h2&gt;
 &lt;p&gt;运行 github 上的大佬的代码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1l1bllhbmcxOTk0L3RlbnNvcmZsb3cteW9sb3YzJUVGJUJDJThDJUU1JTlDJUE4JUU4JUJGJTlCJUU4JUExJThDcHl0aG9u&#34;&gt;https://github.com/YunYang1994/tensorflow-yolov3，在进行 python&lt;/span&gt; train.py 的时候：ValueError: not enough values to unpack (expected 3, got 0),github 中部分解决方法 https://github.com/YunYang1994/tensorflow-yolov3/issues/396，但尝试后都没有成功运行，后来发现只是因为路径包含中文。&lt;/p&gt;
