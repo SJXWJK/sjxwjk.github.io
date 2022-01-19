@@ -69,6 +69,14 @@
             "date_published": "2022-01-09T12:02:30.033Z",
             "content_html": "<p>本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。<br>\n故，可能有时间问题导致博客内容失效。</p>\n",
             "tags": []
+        },
+        {
+            "id": "https://sjxwjk.github.io/2022/01/09/bug/bug2/",
+            "url": "https://sjxwjk.github.io/2022/01/09/bug/bug2/",
+            "title": "",
+            "date_published": "2022-01-09T12:02:30.033Z",
+            "content_html": "<hr>\n<h2 id=\"bug2\"><a class=\"markdownIt-Anchor\" href=\"#bug2\">#</a> bug2</h2>\n<p>本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。<br>\n「侵删致谢」</p>\n<h1 id=\"pip-问题\"><a class=\"markdownIt-Anchor\" href=\"#pip-问题\">#</a> pip 问题</h1>\n<p>安装或更新都会出现一下问题：</p>\n<figure class=\"highlight plaintext\"><figcaption><span>Exception:</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">Traceback (most recent call last):</span><br></pre></td></tr></table></figure>\n<p>解决办法就是找个镜像：推荐（XXX 是需要安装的）</p>\n<figure class=\"highlight plaintext\"><figcaption><span>install XXX -i</span><span class=\"exturl\" data-url=\"aHR0cDovL3B5cGkuZG91YmFuLmNvbS9zaW1wbGU=\">--trusted-host pypi.douban.com</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">```</span><br><span class=\"line\"></span><br><span class=\"line\"># 使用oenpyxl的问题</span><br><span class=\"line\">1、如下：</span><br><span class=\"line\"></span><br><span class=\"line\">```TypeError: got invalid input value of type &lt;class &#x27;xml.etree.ElementTree.Element&#x27;&gt;, expected string </span><br></pre></td></tr></table></figure>\n<p>openpyxl 版本问题，我把本身自带的版本 3.0.2 卸载，安装了 3.0.0 后就不再出现次错误。</p>\n<p>安装 3.0.0</p>\n<figure class=\"highlight plaintext\"><figcaption><span>install openpyxl</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">```</span><br><span class=\"line\">![](https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201191016019.png)</span><br><span class=\"line\"></span><br><span class=\"line\">卸载3.0.2</span><br><span class=\"line\">```pip uninstall openpyxl</span><br></pre></td></tr></table></figure>\n<p><img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201191017522.png\" alt><br>\n补充：网上有教程是包冲突，我卸载了 lxml，还是会报错，不过大家可以尝试一下。</p>\n",
+            "tags": []
         }
     ]
 }

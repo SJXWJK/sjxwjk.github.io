@@ -255,5 +255,26 @@
 故，可能有时间问题导致博客内容失效。&lt;/p&gt;
  ]]></description>
         </item>
+        <item>
+            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/09/bug/bug2/</guid>
+            <title></title>
+            <link>https://sjxwjk.github.io/2022/01/09/bug/bug2/</link>
+            <pubDate>Sun, 09 Jan 2022 20:02:30 +0800</pubDate>
+            <description><![CDATA[ &lt;hr&gt;
+&lt;h2 id=&#34;bug2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#bug2&#34;&gt;#&lt;/a&gt; bug2&lt;/h2&gt;
+&lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
+「侵删致谢」&lt;/p&gt;
+&lt;h1 id=&#34;pip-问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pip-问题&#34;&gt;#&lt;/a&gt; pip 问题&lt;/h1&gt;
+&lt;p&gt;安装或更新都会出现一下问题：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Exception:&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Traceback (most recent call last):&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;解决办法就是找个镜像：推荐（XXX 是需要安装的）&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;install XXX -i&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3B5cGkuZG91YmFuLmNvbS9zaW1wbGU=&#34;&gt;--trusted-host pypi.douban.com&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;```&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 使用oenpyxl的问题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1、如下：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;```TypeError: got invalid input value of type &amp;lt;class &amp;#x27;xml.etree.ElementTree.Element&amp;#x27;&amp;gt;, expected string &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;openpyxl 版本问题，我把本身自带的版本 3.0.2 卸载，安装了 3.0.0 后就不再出现次错误。&lt;/p&gt;
+&lt;p&gt;安装 3.0.0&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;install openpyxl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;```&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;![](https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201191016019.png)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;卸载3.0.2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;```pip uninstall openpyxl&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201191017522.png&#34; alt&gt;&lt;br&gt;
+补充：网上有教程是包冲突，我卸载了 lxml，还是会报错，不过大家可以尝试一下。&lt;/p&gt;
+ ]]></description>
+        </item>
     </channel>
 </rss>
