@@ -97,13 +97,11 @@
         </item>
         <item>
             <guid isPermalink="true">https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</guid>
-            <title></title>
+            <title>Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床</title>
             <link>https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
+            <category term="搭建博客相关" scheme="https://sjxwjk.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/" />
             <pubDate>Tue, 11 Jan 2022 13:57:33 +0800</pubDate>
-            <description><![CDATA[ &lt;hr&gt;
-&lt;h2 id=&#34;titlemac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床tags搭建博客相关&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#titlemac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床tags搭建博客相关&#34;&gt;#&lt;/a&gt; title:Mac 系统利用阿里云 OSS+Mweb+Picgo 为基于 Hexo 的博客搭建图床&lt;br&gt;
- tags: 搭建博客相关&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;                「侵删致谢」
+            <description><![CDATA[ &lt;pre&gt;&lt;code&gt;                「侵删致谢」
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
 &lt;p&gt;最近搭建好 Hexo 博客，昨天开始迁移博客的时候，思考图片存储问题。于是，开始搜索，看到大家都是用一个云 + Picgo+Typora 搭建了一个图床。前几天在找 Markdown 编辑器的时候，最初的想法也是用 Typora，但是奈何官网进不去，遂转入 MWeb。&lt;/p&gt;
@@ -136,6 +134,27 @@
 （4）填写好后点击确定，发布服务。&lt;/p&gt;
 &lt;h1 id=&#34;使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h1&gt;
 &lt;p&gt;上述完成后就可以使用了，有图片就上传到 PicGo，然后复制图片代码，在写博客的时候粘贴即可。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</guid>
+            <title>一些常用的优秀网站和软件</title>
+            <link>https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</link>
+            <category term="常用" scheme="https://sjxwjk.github.io/tags/%E5%B8%B8%E7%94%A8/" />
+            <pubDate>Mon, 10 Jan 2022 20:00:13 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;本文从 CSDN 迁移到此，写于 2019 年 06 月 26 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
+「侵删致谢」&lt;/p&gt;
+&lt;p&gt;1. 可以生成比较好看的代码截图：&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jYXJib24ubm93LnNo&#34;&gt;https://carbon.now.sh&lt;/span&gt;&lt;br&gt;
+2. 可以在 Word 中粘贴出比较整齐的代码：&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5wbGFuZXRiLmNhL3N5bnRheC1oaWdobGlnaHQtd29yZA==&#34;&gt;http://www.planetb.ca/syntax-highlight-word&lt;/span&gt;&lt;br&gt;
+ 或者用 Notepad++&lt;/p&gt;
+&lt;p&gt;![&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111346114.png&#34; alt&gt;&lt;/p&gt;
+&lt;p&gt;刚从 Windows 转入 mac，mac 系统可以用：Sublime Text&lt;/p&gt;
+&lt;p&gt;3. 文件格式转换的网站：&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saWdodHBkZi5jb20=&#34;&gt;https://lightpdf.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;4. 甘特图：&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nYW50dC5taW5kc3VwLmNvbS5jbi8=&#34;&gt;https://gantt.mindsup.com.cn/&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
