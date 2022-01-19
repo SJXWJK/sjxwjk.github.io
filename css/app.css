@@ -2509,17 +2509,11 @@ main >.inner {
   top: -10%;
   left: -10%;
 }
-.social .item.a::before {
-  background-color: ou;
+.social .item.::before {
+  background-color: ;
 }
-.social .item.a i {
-  color: ou;
-}
-.social .item.h::before {
-  background-color: #3b5998;
-}
-.social .item.h i {
-  color: #3b5998;
+.social .item. i {
+  color: ;
 }
 .social .item:focus i,
 .social .item:hover i {
