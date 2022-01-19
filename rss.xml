@@ -14,12 +14,13 @@
         <lastBuildDate>Mon, 17 Jan 2022 18:33:18 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">https://sjxwjk.github.io/2022/01/17/bug/bug1/</guid>
-            <title></title>
+            <title>eclipse 点击new菜单后没有新建java project的解决方案</title>
             <link>https://sjxwjk.github.io/2022/01/17/bug/bug1/</link>
+            <category term="八阿哥" scheme="https://sjxwjk.github.io/tags/%E5%85%AB%E9%98%BF%E5%93%A5/" />
             <pubDate>Mon, 17 Jan 2022 18:33:18 +0800</pubDate>
-            <description><![CDATA[ &lt;hr&gt;
-&lt;h2 id=&#34;eclipse-点击new菜单后没有新建java-project的解决方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#eclipse-点击new菜单后没有新建java-project的解决方案&#34;&gt;#&lt;/a&gt; eclipse 点击 new 菜单后没有新建 java project 的解决方案&lt;/h2&gt;
-&lt;p&gt;运行 github 上的大佬的代码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1l1bllhbmcxOTk0L3RlbnNvcmZsb3cteW9sb3YzJUVGJUJDJThDJUU1JTlDJUE4JUU4JUJGJTlCJUU4JUExJThDcHl0aG9u&#34;&gt;https://github.com/YunYang1994/tensorflow-yolov3，在进行 python&lt;/span&gt; train.py 的时候：ValueError: not enough values to unpack (expected 3, got 0),github 中部分解决方法 https://github.com/YunYang1994/tensorflow-yolov3/issues/396，但尝试后都没有成功运行，后来发现只是因为路径包含中文。&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 04 月 20 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
+「侵删致谢」&lt;br&gt;
+运行 github 上的大佬的代码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1l1bllhbmcxOTk0L3RlbnNvcmZsb3cteW9sb3YzJUVGJUJDJThDJUU1JTlDJUE4JUU4JUJGJTlCJUU4JUExJThDcHl0aG9u&#34;&gt;https://github.com/YunYang1994/tensorflow-yolov3，在进行 python&lt;/span&gt; train.py 的时候：ValueError: not enough values to unpack (expected 3, got 0),github 中部分解决方法 https://github.com/YunYang1994/tensorflow-yolov3/issues/396，但尝试后都没有成功运行，后来发现只是因为路径包含中文。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -100,7 +101,8 @@
             <link>https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
             <pubDate>Tue, 11 Jan 2022 13:57:33 +0800</pubDate>
             <description><![CDATA[ &lt;hr&gt;
-&lt;h2 id=&#34;mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床&#34;&gt;#&lt;/a&gt; Mac 系统利用阿里云 OSS+Mweb+Picgo 为基于 Hexo 的博客搭建图床&lt;/h2&gt;
+&lt;h2 id=&#34;mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床tags搭建博客相关&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mac系统利用阿里云ossmwebpicgo为基于hexo的博客搭建图床tags搭建博客相关&#34;&gt;#&lt;/a&gt; Mac 系统利用阿里云 OSS+Mweb+Picgo 为基于 Hexo 的博客搭建图床&lt;br&gt;
+ tags: 搭建博客相关&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;                「侵删致谢」
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
@@ -134,49 +136,6 @@
 （4）填写好后点击确定，发布服务。&lt;/p&gt;
 &lt;h1 id=&#34;使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h1&gt;
 &lt;p&gt;上述完成后就可以使用了，有图片就上传到 PicGo，然后复制图片代码，在写博客的时候粘贴即可。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</guid>
-            <title>一些常用的优秀网站和软件</title>
-            <link>https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</link>
-            <pubDate>Mon, 10 Jan 2022 20:00:13 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;本文从 CSDN 迁移到此，写于 2019 年 06 月 26 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
-「侵删致谢」&lt;/p&gt;
-&lt;p&gt;1. 可以生成比较好看的代码截图：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jYXJib24ubm93LnNo&#34;&gt;https://carbon.now.sh&lt;/span&gt;&lt;br&gt;
-2. 可以在 Word 中粘贴出比较整齐的代码：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5wbGFuZXRiLmNhL3N5bnRheC1oaWdobGlnaHQtd29yZA==&#34;&gt;http://www.planetb.ca/syntax-highlight-word&lt;/span&gt;&lt;br&gt;
- 或者用 Notepad++&lt;/p&gt;
-&lt;p&gt;![&lt;img data-src=&#34;https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111346114.png&#34; alt&gt;&lt;/p&gt;
-&lt;p&gt;刚从 Windows 转入 mac，mac 系统可以用：Sublime Text&lt;/p&gt;
-&lt;p&gt;3. 文件格式转换的网站：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saWdodHBkZi5jb20=&#34;&gt;https://lightpdf.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;4. 甘特图：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nYW50dC5taW5kc3VwLmNvbS5jbi8=&#34;&gt;https://gantt.mindsup.com.cn/&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/</guid>
-            <title>Citespace使用方法/经验（汇总）</title>
-            <link>https://sjxwjk.github.io/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/</link>
-            <pubDate>Mon, 10 Jan 2022 18:19:27 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;本文从 CSDN 迁移到此，写于 2019 年 10 月 28 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
-「侵删致谢」&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;citespace 初学者使用：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZW5rdS5iYWlkdS5jb20vdmlldy80ZGEzZmQxYTYyOTRkZDg4ZDFkMjZiNjQuaHRtbCUyMCUyMCUyMCUyMCUyMA==&#34;&gt;https://wenku.baidu.com/view/4da3fd1a6294dd88d1d26b64.html     &lt;/span&gt;&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC80OWQ0MWQwY2NkN2ZodHRwczovL3d3dy5qaWFuc2h1LmNvbS9wLzQ5ZDQxZDBjY2Q3ZiUyMCUyMCUyMCUyMA==&#34;&gt;https://www.jianshu.com/p/49d41d0ccd7fhttps://www.jianshu.com/p/49d41d0ccd7f    &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;有一个公众号 “学术点滴”，感谢大佬&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解决关键词聚类标签显示省略号问题：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2Jsb2cuc2NpZW5jZW5ldC5jbi9ibG9nLTMxOTU1NDAtMTA1MzUxNS5odG1s&#34;&gt;http://blog.sciencenet.cn/blog-3195540-1053515.html&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
@@ -245,7 +204,7 @@
         </item>
         <item>
             <guid isPermalink="true">https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/</guid>
-            <title>置顶文章</title>
+            <title>公告</title>
             <link>https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/</link>
             <pubDate>Sun, 09 Jan 2022 20:02:30 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。&lt;br&gt;
@@ -254,12 +213,11 @@
         </item>
         <item>
             <guid isPermalink="true">https://sjxwjk.github.io/2022/01/09/bug/bug2/</guid>
-            <title></title>
+            <title>pip安装更新相关问题</title>
             <link>https://sjxwjk.github.io/2022/01/09/bug/bug2/</link>
+            <category term="八阿哥" scheme="https://sjxwjk.github.io/tags/%E5%85%AB%E9%98%BF%E5%93%A5/" />
             <pubDate>Sun, 09 Jan 2022 20:02:30 +0800</pubDate>
-            <description><![CDATA[ &lt;hr&gt;
-&lt;h2 id=&#34;pip安装问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pip安装问题&#34;&gt;#&lt;/a&gt; pip 安装问题&lt;/h2&gt;
-&lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
+            <description><![CDATA[ &lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;/p&gt;
 &lt;h1 id=&#34;pip-问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pip-问题&#34;&gt;#&lt;/a&gt; pip 问题&lt;/h1&gt;
 &lt;p&gt;安装或更新都会出现一下问题：&lt;/p&gt;
