@@ -243,15 +243,6 @@
         <updated>2022-01-10T01:08:17.194Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/</id>
-        <title>公告</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/"/>
-        <content type="html">&lt;p&gt;本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。&lt;br&gt;
-故，可能有时间问题导致博客内容失效。&lt;/p&gt;
-</content>
-        <updated>2022-01-09T12:02:30.033Z</updated>
-    </entry>
-    <entry>
         <id>https://sjxwjk.github.io/2022/01/09/bug/bug2/</id>
         <title>pip安装更新相关问题</title>
         <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/bug/bug2/"/>
@@ -269,6 +260,15 @@
 补充：网上有教程是包冲突，我卸载了 lxml，还是会报错，不过大家可以尝试一下。&lt;/p&gt;
 </content>
         <category term="八阿哥" />
+        <updated>2022-01-09T12:02:30.033Z</updated>
+    </entry>
+    <entry>
+        <id>https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/</id>
+        <title>公告</title>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/"/>
+        <content type="html">&lt;p&gt;本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。&lt;br&gt;
+故，可能有时间问题导致博客内容失效。&lt;/p&gt;
+</content>
         <updated>2022-01-09T12:02:30.033Z</updated>
     </entry>
 </feed>
