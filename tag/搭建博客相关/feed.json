@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "ZZ • All posts by \"搭建博客相关\" tag",
+    "description": "",
+    "home_page_url": "https://sjxwjk.github.io",
+    "items": [
+        {
+            "id": "https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/",
+            "url": "https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/",
+            "title": "Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床",
+            "date_published": "2022-01-11T05:57:33.962Z",
+            "content_html": "<pre><code>                「侵删致谢」\n</code></pre>\n<h1 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h1>\n<p>最近搭建好 Hexo 博客，昨天开始迁移博客的时候，思考图片存储问题。于是，开始搜索，看到大家都是用一个云 + Picgo+Typora 搭建了一个图床。前几天在找 Markdown 编辑器的时候，最初的想法也是用 Typora，但是奈何官网进不去，遂转入 MWeb。</p>\n<h1 id=\"准备工作\"><a class=\"markdownIt-Anchor\" href=\"#准备工作\">#</a> 准备工作</h1>\n<h2 id=\"阿里云oss\"><a class=\"markdownIt-Anchor\" href=\"#阿里云oss\">#</a> 阿里云 OSS</h2>\n<p>1. 链接：<span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuYWxpeXVuLmNvbS9wcm9kdWN0L29zcw==\">https://www.aliyun.com/product/oss</span><br>\n2. 开通：一年 9 块钱<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111410220.png\" alt><br>\n 3. 创建 Bucket 列表<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111414857.png\" alt><br>\n 4. 生成 Access Key 和 AccessKey Secret<br>\n（在下图右下角常见入口，左侧第二个）<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111415577.png\" alt></p>\n<h2 id=\"picgo\"><a class=\"markdownIt-Anchor\" href=\"#picgo\">#</a> Picgo</h2>\n<p>1. 下载：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dvL3JlbGVhc2Vz\">https://github.com/Molunerfinn/PicGo/releases</span><br>\n 按照作者的教程来就行，需要注意的就是 Mac 会提示风险 app，在安全里允许一下就好了<br>\n 2. 配置：如图<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111444858.png\" alt><br>\n值得说的是，我在上传图片的时候报 403，说说解决办法，首先在 PicGO 设置里看起服务，确保自己配置信息没有写错。<br>\n上传失败一定在 PicGo 中看看日志文件。</p>\n<h2 id=\"mweb\"><a class=\"markdownIt-Anchor\" href=\"#mweb\">#</a> Mweb</h2>\n<p>1. 下载：APP Store<br>\n2. 配置<br>\n (1) 在这里选择偏好设置 —&gt;<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111425766.png\" alt><br>\n(2) 按照下图点击 —&gt;<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111431149.png\" alt><br>\n(3) 填写配置信息<br>\n<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111435044.png\" alt><br>\n（4）填写好后点击确定，发布服务。</p>\n<h1 id=\"使用\"><a class=\"markdownIt-Anchor\" href=\"#使用\">#</a> 使用</h1>\n<p>上述完成后就可以使用了，有图片就上传到 PicGo，然后复制图片代码，在写博客的时候粘贴即可。</p>\n",
+            "tags": [
+                "搭建博客相关"
+            ]
+        }
+    ]
+}

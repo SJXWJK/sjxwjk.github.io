@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "ZZ • All posts by \"citespace\" tag",
+    "description": "",
+    "home_page_url": "https://sjxwjk.github.io",
+    "items": [
+        {
+            "id": "https://sjxwjk.github.io/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/",
+            "url": "https://sjxwjk.github.io/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/",
+            "title": "Citespace使用方法/经验（汇总）",
+            "date_published": "2022-01-10T10:19:27.158Z",
+            "content_html": "<p>本文从 CSDN 迁移到此，写于 2019 年 10 月 28 日，所以也许存在因时间久远而出现一些问题。<br>\n「侵删致谢」</p>\n<ol>\n<li>\n<p>citespace 初学者使用：<br>\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly93ZW5rdS5iYWlkdS5jb20vdmlldy80ZGEzZmQxYTYyOTRkZDg4ZDFkMjZiNjQuaHRtbCUyMCUyMCUyMCUyMCUyMA==\">https://wenku.baidu.com/view/4da3fd1a6294dd88d1d26b64.html     </span><br>\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC80OWQ0MWQwY2NkN2ZodHRwczovL3d3dy5qaWFuc2h1LmNvbS9wLzQ5ZDQxZDBjY2Q3ZiUyMCUyMCUyMCUyMA==\">https://www.jianshu.com/p/49d41d0ccd7fhttps://www.jianshu.com/p/49d41d0ccd7f    </span></p>\n</li>\n<li>\n<p>有一个公众号 “学术点滴”，感谢大佬</p>\n</li>\n<li>\n<p>解决关键词聚类标签显示省略号问题：<br>\n<span class=\"exturl\" data-url=\"aHR0cDovL2Jsb2cuc2NpZW5jZW5ldC5jbi9ibG9nLTMxOTU1NDAtMTA1MzUxNS5odG1s\">http://blog.sciencenet.cn/blog-3195540-1053515.html</span></p>\n</li>\n</ol>\n",
+            "tags": [
+                "citespace"
+            ]
+        }
+    ]
+}
