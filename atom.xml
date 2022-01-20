@@ -5,14 +5,14 @@
     <link href="https://sjxwjk.github.io" />
     <updated>2022-01-17T10:33:18.666Z</updated>
     <category term="citespace" />
-    <category term="常用" />
-    <category term="八阿哥" />
-    <category term="测试" />
     <category term="搭建博客相关" />
+    <category term="八阿哥" />
+    <category term="常用" />
+    <category term="测试" />
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/17/bug/bug1/</id>
+        <id>https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/</id>
         <title>eclipse 点击new菜单后没有新建java project的解决方案</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/17/bug/bug1/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 04 月 20 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;br&gt;
 运行 github 上的大佬的代码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1l1bllhbmcxOTk0L3RlbnNvcmZsb3cteW9sb3YzJUVGJUJDJThDJUU1JTlDJUE4JUU4JUJGJTlCJUU4JUExJThDcHl0aG9u&#34;&gt;https://github.com/YunYang1994/tensorflow-yolov3，在进行 python&lt;/span&gt; train.py 的时候：ValueError: not enough values to unpack (expected 3, got 0),github 中部分解决方法 https://github.com/YunYang1994/tensorflow-yolov3/issues/396，但尝试后都没有成功运行，后来发现只是因为路径包含中文。&lt;/p&gt;
@@ -21,9 +21,9 @@
         <updated>2022-01-17T10:33:18.666Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
+        <id>https://sjxwjk.github.io/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
         <title>编写测试用例 （持续更新</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;编写测试用例的基本方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编写测试用例的基本方法&#34;&gt;#&lt;/a&gt; 编写测试用例的基本方法&lt;/h1&gt;
 &lt;h2 id=&#34;等价类划分法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#等价类划分法&#34;&gt;#&lt;/a&gt; 等价类划分法：&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;1.定义：等价类划分是指分步骤的把海量的测试用例集剪的很小；
@@ -55,9 +55,9 @@
         <updated>2022-01-12T01:19:05.205Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
+        <id>https://sjxwjk.github.io/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
         <title>搭建测试环境（持续更新</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;测试环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#测试环境&#34;&gt;#&lt;/a&gt; 测试环境&lt;/h1&gt;
 &lt;h2 id=&#34;定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#定义&#34;&gt;#&lt;/a&gt; 定义：&lt;/h2&gt;
 &lt;p&gt;测试环境是指为了完成软件测试工作所必需的计算机硬件 / 软件 / 网络设备 / 历史数据的总称。即完整的测试环境 = 硬件 + 软件 + 网络 + 数据 + 测试工具&lt;/p&gt;
@@ -134,9 +134,9 @@
         <updated>2022-01-11T05:57:33.962Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</id>
+        <id>https://sjxwjk.github.io/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</id>
         <title>一些常用的优秀网站和软件</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2019 年 06 月 26 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;/p&gt;
 &lt;p&gt;1. 可以生成比较好看的代码截图：&lt;br&gt;
@@ -179,9 +179,9 @@
         <updated>2022-01-10T10:19:27.158Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/10/test/Jmeter/</id>
+        <id>https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/</id>
         <title>jmeter （持续更新</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/10/test/Jmeter/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/"/>
         <content type="html">&lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h1&gt;
 &lt;p&gt;1.JMeter 是一款由 Apache 开发的 Java 开源工具，作为软件测试重要的工具之一，可用于性能负载测试，通过创建带有断言的脚本来验证程序是否能返回期望的结果。旨在分析和衡量 Web 应用程序和各种服务的性能和负载功能行为。&lt;br&gt;
 2. 优缺点&lt;br&gt;
@@ -252,9 +252,9 @@
         <updated>2022-01-09T12:02:30.033Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/09/bug/bug2/</id>
+        <id>https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/</id>
         <title>pip安装更新相关问题</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/bug/bug2/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;/p&gt;
 &lt;h1 id=&#34;pip-问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pip-问题&#34;&gt;#&lt;/a&gt; pip 问题&lt;/h1&gt;

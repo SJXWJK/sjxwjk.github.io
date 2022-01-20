@@ -8,14 +8,14 @@
         <pubDate>Wed, 12 Jan 2022 09:19:05 +0800</pubDate>
         <lastBuildDate>Wed, 12 Jan 2022 09:19:05 +0800</lastBuildDate>
         <category>citespace</category>
-        <category>常用</category>
-        <category>八阿哥</category>
-        <category>测试</category>
         <category>搭建博客相关</category>
+        <category>八阿哥</category>
+        <category>常用</category>
+        <category>测试</category>
         <item>
-            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</guid>
+            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</guid>
             <title>编写测试用例 （持续更新</title>
-            <link>https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</link>
+            <link>https://sjxwjk.github.io/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</link>
             <category>测试</category>
             <pubDate>Wed, 12 Jan 2022 09:19:05 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;编写测试用例的基本方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编写测试用例的基本方法&#34;&gt;#&lt;/a&gt; 编写测试用例的基本方法&lt;/h1&gt;
@@ -47,9 +47,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</guid>
+            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</guid>
             <title>搭建测试环境（持续更新</title>
-            <link>https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</link>
+            <link>https://sjxwjk.github.io/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</link>
             <category>测试</category>
             <pubDate>Wed, 12 Jan 2022 09:18:46 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;测试环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#测试环境&#34;&gt;#&lt;/a&gt; 测试环境&lt;/h1&gt;
@@ -85,9 +85,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/10/test/Jmeter/</guid>
+            <guid isPermalink="true">https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/</guid>
             <title>jmeter （持续更新</title>
-            <link>https://sjxwjk.github.io/2022/01/10/test/Jmeter/</link>
+            <link>https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/</link>
             <category>测试</category>
             <pubDate>Mon, 10 Jan 2022 09:08:17 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h1&gt;

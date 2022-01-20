@@ -5,14 +5,14 @@
     <link href="https://sjxwjk.github.io" />
     <updated>2022-01-17T10:33:18.666Z</updated>
     <category term="citespace" />
-    <category term="常用" />
-    <category term="八阿哥" />
-    <category term="测试" />
     <category term="搭建博客相关" />
+    <category term="八阿哥" />
+    <category term="常用" />
+    <category term="测试" />
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/17/bug/bug1/</id>
+        <id>https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/</id>
         <title>eclipse 点击new菜单后没有新建java project的解决方案</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/17/bug/bug1/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 04 月 20 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;br&gt;
 运行 github 上的大佬的代码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1l1bllhbmcxOTk0L3RlbnNvcmZsb3cteW9sb3YzJUVGJUJDJThDJUU1JTlDJUE4JUU4JUJGJTlCJUU4JUExJThDcHl0aG9u&#34;&gt;https://github.com/YunYang1994/tensorflow-yolov3，在进行 python&lt;/span&gt; train.py 的时候：ValueError: not enough values to unpack (expected 3, got 0),github 中部分解决方法 https://github.com/YunYang1994/tensorflow-yolov3/issues/396，但尝试后都没有成功运行，后来发现只是因为路径包含中文。&lt;/p&gt;
@@ -21,9 +21,9 @@
         <updated>2022-01-17T10:33:18.666Z</updated>
     </entry>
     <entry>
-        <id>https://sjxwjk.github.io/2022/01/09/bug/bug2/</id>
+        <id>https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/</id>
         <title>pip安装更新相关问题</title>
-        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/bug/bug2/"/>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/"/>
         <content type="html">&lt;p&gt;本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。&lt;br&gt;
 「侵删致谢」&lt;/p&gt;
 &lt;h1 id=&#34;pip-问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pip-问题&#34;&gt;#&lt;/a&gt; pip 问题&lt;/h1&gt;

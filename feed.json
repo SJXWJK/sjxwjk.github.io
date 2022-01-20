@@ -5,8 +5,8 @@
     "home_page_url": "https://sjxwjk.github.io",
     "items": [
         {
-            "id": "https://sjxwjk.github.io/2022/01/17/bug/bug1/",
-            "url": "https://sjxwjk.github.io/2022/01/17/bug/bug1/",
+            "id": "https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/",
+            "url": "https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/",
             "title": "eclipse 点击new菜单后没有新建java project的解决方案",
             "date_published": "2022-01-17T10:33:18.666Z",
             "content_html": "<p>本文从 CSDN 迁移到此，写于 2021 年 04 月 20 日，所以也许存在因时间久远而出现一些问题。<br>\n「侵删致谢」<br>\n运行 github 上的大佬的代码：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL1l1bllhbmcxOTk0L3RlbnNvcmZsb3cteW9sb3YzJUVGJUJDJThDJUU1JTlDJUE4JUU4JUJGJTlCJUU4JUExJThDcHl0aG9u\">https://github.com/YunYang1994/tensorflow-yolov3，在进行 python</span> train.py 的时候：ValueError: not enough values to unpack (expected 3, got 0),github 中部分解决方法 https://github.com/YunYang1994/tensorflow-yolov3/issues/396，但尝试后都没有成功运行，后来发现只是因为路径包含中文。</p>\n",
@@ -15,8 +15,8 @@
             ]
         },
         {
-            "id": "https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
-            "url": "https://sjxwjk.github.io/2022/01/12/test/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
+            "id": "https://sjxwjk.github.io/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
+            "url": "https://sjxwjk.github.io/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
             "title": "编写测试用例 （持续更新",
             "date_published": "2022-01-12T01:19:05.205Z",
             "content_html": "<h1 id=\"编写测试用例的基本方法\"><a class=\"markdownIt-Anchor\" href=\"#编写测试用例的基本方法\">#</a> 编写测试用例的基本方法</h1>\n<h2 id=\"等价类划分法\"><a class=\"markdownIt-Anchor\" href=\"#等价类划分法\">#</a> 等价类划分法：</h2>\n<pre><code>1.定义：等价类划分是指分步骤的把海量的测试用例集剪的很小；\n2.等价类：某个输入域的集合，在每个集合中每个输入条件都是有效的。\n3.多用于输入框\n4.有效等价类和无效等价类\n    有效等价类：指符合需求规格说明书，输入合理的数据集合\n    无效等价类：指不符合需求规格说明书，输入不合理的数据集合\n5.例题：如计算两个1-100之间整数的和。\n</code></pre>\n<h2 id=\"边界值测定法\"><a class=\"markdownIt-Anchor\" href=\"#边界值测定法\">#</a> 边界值测定法</h2>\n<pre><code>1.选取正好等于，刚刚大于，刚刚小于边界值作为测试数据。\n2.上点（有效）\n3.离点（无效）\n4.例题：1-100之间的证书中四种情况分别取上点和离点\n</code></pre>\n<h2 id=\"因果图法\"><a class=\"markdownIt-Anchor\" href=\"#因果图法\">#</a> 因果图法</h2>\n<h2 id=\"场景法\"><a class=\"markdownIt-Anchor\" href=\"#场景法\">#</a> 场景法</h2>\n<pre><code>1.用例场景是通过描述流经用例的路径来确定的过程，这个流经过程要从用例开始到结束遍历其中所有基本流和备选流。\n2.基本流\n3.备选项\n4.例题：银行ATM\n</code></pre>\n<h2 id=\"正交表法\"><a class=\"markdownIt-Anchor\" href=\"#正交表法\">#</a> 正交表法</h2>\n<pre><code>1.正交排列法能够使用最小的测试过程集合获得最大的测试覆盖率。当可能的输入数据或者输入数据的组合数量很大时，由于不可能为每个输入组合都创建测试用例，可以采用这种方法。\n</code></pre>\n",
@@ -25,8 +25,8 @@
             ]
         },
         {
-            "id": "https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
-            "url": "https://sjxwjk.github.io/2022/01/12/test/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
+            "id": "https://sjxwjk.github.io/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
+            "url": "https://sjxwjk.github.io/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/",
             "title": "搭建测试环境（持续更新",
             "date_published": "2022-01-12T01:18:46.947Z",
             "content_html": "<h1 id=\"测试环境\"><a class=\"markdownIt-Anchor\" href=\"#测试环境\">#</a> 测试环境</h1>\n<h2 id=\"定义\"><a class=\"markdownIt-Anchor\" href=\"#定义\">#</a> 定义：</h2>\n<p>测试环境是指为了完成软件测试工作所必需的计算机硬件 / 软件 / 网络设备 / 历史数据的总称。即完整的测试环境 = 硬件 + 软件 + 网络 + 数据 + 测试工具</p>\n<h2 id=\"硬件\"><a class=\"markdownIt-Anchor\" href=\"#硬件\">#</a> 硬件：</h2>\n<p>1. 硬件相关的测试就是计算机操作系统。如 winsows7，8，10/Linux centos7，centos，Ubuntu，Redhat，Debian/Mac OS<br>\n2. 测试环境可以部署在任何一种操作系统上，根据被测软件的需求来决定。</p>\n<h2 id=\"软件\"><a class=\"markdownIt-Anchor\" href=\"#软件\">#</a> 软件：</h2>\n<p>1. 被测软件与其相关依赖和交互的软件。<br>\n2. 依赖交互软件一般是指：JDK，tomcat，mysql，oracle 等。</p>\n<h2 id=\"网络\"><a class=\"markdownIt-Anchor\" href=\"#网络\">#</a> 网络</h2>\n<p>1. 需要规划和配置 IP 地址，部署路由和 VLAN 等。实现网络隔离和通信。<br>\n2. 了解 TCP，HTTP，UDP 等网络协议。<br>\n3. 了解 Linux 基本网络配置<br>\n系统的 IP 和路由配置<br>\n调试网络通信问题等<br>\n Linux 系统命令抓包</p>\n<h2 id=\"测试工具\"><a class=\"markdownIt-Anchor\" href=\"#测试工具\">#</a> 测试工具</h2>\n<p>1. 黑盒测试：会利用各种工具来代替手工；<br>\n2. 压力，性能测试：同样需要借助测试工具模拟高并发，高吞吐，高持续的数据；<br>\n3. 常用工具<br>\n接口测试：postman，jmeter<br>\n 自动化测试：selenium<br>\n 抓包工具：fiddler，charles</p>\n<h2 id=\"数据准备\"><a class=\"markdownIt-Anchor\" href=\"#数据准备\">#</a> 数据准备</h2>\n<p>1. 一般指测试数据的准备</p>\n<h1 id=\"问题\"><a class=\"markdownIt-Anchor\" href=\"#问题\">#</a> 问题</h1>\n<p>面试官：所以 Linux 系统你是会用的对吧？具体操作步骤能简单描述一下么？你们一般会安装一些什么服务？<br>\n面试官：你会自己独立搭建测试环境么？你以前公司测试需要自己搭建测试环境么？</p>\n<p><img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201120952355.png\" alt></p>\n<h1 id=\"搭建测试环境步骤\"><a class=\"markdownIt-Anchor\" href=\"#搭建测试环境步骤\">#</a> 搭建测试环境步骤</h1>\n",
@@ -45,8 +45,8 @@
             ]
         },
         {
-            "id": "https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/",
-            "url": "https://sjxwjk.github.io/2022/01/10/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/",
+            "id": "https://sjxwjk.github.io/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/",
+            "url": "https://sjxwjk.github.io/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/",
             "title": "一些常用的优秀网站和软件",
             "date_published": "2022-01-10T12:00:13.230Z",
             "content_html": "<p>本文从 CSDN 迁移到此，写于 2019 年 06 月 26 日，所以也许存在因时间久远而出现一些问题。<br>\n「侵删致谢」</p>\n<p>1. 可以生成比较好看的代码截图：<br>\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9jYXJib24ubm93LnNo\">https://carbon.now.sh</span><br>\n2. 可以在 Word 中粘贴出比较整齐的代码：<br>\n<span class=\"exturl\" data-url=\"aHR0cDovL3d3dy5wbGFuZXRiLmNhL3N5bnRheC1oaWdobGlnaHQtd29yZA==\">http://www.planetb.ca/syntax-highlight-word</span><br>\n 或者用 Notepad++</p>\n<p>![<img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201111346114.png\" alt></p>\n<p>刚从 Windows 转入 mac，mac 系统可以用：Sublime Text</p>\n<p>3. 文件格式转换的网站：<br>\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9saWdodHBkZi5jb20=\">https://lightpdf.com</span></p>\n<p>4. 甘特图：<br>\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9nYW50dC5taW5kc3VwLmNvbS5jbi8=\">https://gantt.mindsup.com.cn/</span></p>\n",
@@ -65,8 +65,8 @@
             ]
         },
         {
-            "id": "https://sjxwjk.github.io/2022/01/10/test/Jmeter/",
-            "url": "https://sjxwjk.github.io/2022/01/10/test/Jmeter/",
+            "id": "https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/",
+            "url": "https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/",
             "title": "jmeter （持续更新",
             "date_published": "2022-01-10T01:08:17.194Z",
             "content_html": "<h1 id=\"简介\"><a class=\"markdownIt-Anchor\" href=\"#简介\">#</a> 简介</h1>\n<p>1.JMeter 是一款由 Apache 开发的 Java 开源工具，作为软件测试重要的工具之一，可用于性能负载测试，通过创建带有断言的脚本来验证程序是否能返回期望的结果。旨在分析和衡量 Web 应用程序和各种服务的性能和负载功能行为。<br>\n2. 优缺点<br>\n优点：开源，免费，跨平台，支持多协议，小巧，功能强大。<br>\n缺点：不支持 IP 欺骗，无法验证 JS 程序，无法验证页面 UI，要         和 Selenium 配合完成 web2.0 的测试。<br>\n3. 安装流程<br>\n（1）需要安装 Java 环境<br>\n（2）下载安装<br>\n（3）启动<br>\n 4. 项目简介<br>\n<img data-src=\"media/16417768971930/iShot2022-01-10%2014.07.40.png\" alt=\"iShot2022-01-10 14.07.40\"><br>\n 需要 API 接口文档</p>\n<p>5. 线程组的设置<br>\n（1）需求：发射一个 HTTP 请求，访问地址，获取所有信息：<br>\n<img data-src=\"media/16417768971930/16418009256482.jpg\" alt></p>\n<p><img data-src=\"media/16417768971930/16418009676560.jpg\" alt><br>\n<img data-src=\"media/16417768971930/16418010736810.jpg\" alt><br>\n<img data-src=\"media/16417768971930/16418011027367.jpg\" alt><br>\n<img data-src=\"media/16417768971930/16418011327056.jpg\" alt><br>\n（2）线程组相关：<br>\n进程：正在运行的程序<br>\n线程：是进程中的执行线索<br>\n线程组：进程中许多线程，为了方便管理，进行分组，得到线程组。</p>\n<p>（3）并发执行和顺序执行<br>\n并发：多个线程同时执行<br>\n顺序：多个线程顺序执行</p>\n<p>（4）两个特殊的线程组<br>\n setUP 线程组：最优先执行的线程组<br>\n tearDown 线程组：最后执行的线程组</p>\n<p>（5）线程属性<br>\n线程数：模拟用户数<br>\n Ramp- UP 时间（秒）：<br>\n循环次数：执行次数<br>\n调度器：持续时间和启动延迟<br>\n（6）http 请求默认值：被复用的内容封装<br>\n（7）信息头管理器<br>\n<img data-src=\"media/16417768971930/16418088544451.jpg\" alt><br>\n 6. 参数化的使用<br>\n（1）定义 动态的获取，设置或生成数据，是一种由程序驱动代替人工驱动的数据方案，提高脚本的编写效率以及编写质量。<br>\n（2）实现参数化的方式<br>\n用户定义的变量<br>\n CSV 数据文件设置<br>\n用户参数<br>\n函数<br>\n（3）参数化–用户定义的变量<br>\n调用格式：${变量名}<br>\n<img data-src=\"media/16417768971930/16418092029081.jpg\" alt><br>\n（4）参数化 -- CSV 数据文件设置<br>\n CSV：逗号分隔值，是一种简洁且常见的数据存储格式<br>\n实现步骤：<br>\n使用 CSV 文件存储测试数据<br>\n编写被服用的新增脚本模板<br>\n关联脚本与数据<br>\n<img data-src=\"media/16417768971930/16418095840317.jpg\" alt></p>\n<p>7. 直链数据库操作<br>\n 8. 断言</p>\n",
@@ -83,8 +83,8 @@
             "tags": []
         },
         {
-            "id": "https://sjxwjk.github.io/2022/01/09/bug/bug2/",
-            "url": "https://sjxwjk.github.io/2022/01/09/bug/bug2/",
+            "id": "https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/",
+            "url": "https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/",
             "title": "pip安装更新相关问题",
             "date_published": "2022-01-09T12:02:30.033Z",
             "content_html": "<p>本文从 CSDN 迁移到此，写于 2021 年 02 月 01 日，所以也许存在因时间久远而出现一些问题。<br>\n「侵删致谢」</p>\n<h1 id=\"pip-问题\"><a class=\"markdownIt-Anchor\" href=\"#pip-问题\">#</a> pip 问题</h1>\n<p>安装或更新都会出现一下问题：</p>\n<figure class=\"highlight plaintext\"><figcaption><span>Exception:</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">Traceback (most recent call last):</span><br></pre></td></tr></table></figure>\n<p>解决办法就是找个镜像：推荐（XXX 是需要安装的）</p>\n<figure class=\"highlight plaintext\"><figcaption><span>install XXX -i</span><span class=\"exturl\" data-url=\"aHR0cDovL3B5cGkuZG91YmFuLmNvbS9zaW1wbGU=\">--trusted-host pypi.douban.com</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">```</span><br><span class=\"line\"></span><br><span class=\"line\"># 使用oenpyxl的问题</span><br><span class=\"line\">1、如下：</span><br><span class=\"line\"></span><br><span class=\"line\">```TypeError: got invalid input value of type &lt;class &#x27;xml.etree.ElementTree.Element&#x27;&gt;, expected string </span><br></pre></td></tr></table></figure>\n<p>openpyxl 版本问题，我把本身自带的版本 3.0.2 卸载，安装了 3.0.0 后就不再出现次错误。</p>\n<p>安装 3.0.0</p>\n<figure class=\"highlight plaintext\"><figcaption><span>install openpyxl</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">```</span><br><span class=\"line\">![](https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201191016019.png)</span><br><span class=\"line\"></span><br><span class=\"line\">卸载3.0.2</span><br><span class=\"line\">```pip uninstall openpyxl</span><br></pre></td></tr></table></figure>\n<p><img data-src=\"https://zzblogimages.oss-cn-beijing.aliyuncs.com/202201191017522.png\" alt><br>\n补充：网上有教程是包冲突，我卸载了 lxml，还是会报错，不过大家可以尝试一下。</p>\n",
