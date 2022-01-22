@@ -6,6 +6,7 @@
     <updated>2022-01-17T10:33:18.666Z</updated>
     <category term="citespace" />
     <category term="搭建博客相关" />
+    <category term="程序设计语言" />
     <category term="常用" />
     <category term="八阿哥" />
     <category term="测试" />
@@ -253,13 +254,9 @@
     </entry>
     <entry>
         <id>https://sjxwjk.github.io/2022/01/09/C++/title:C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
-        <title></title>
+        <title>C++学习笔记</title>
         <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/C++/title:C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-        <content type="html">&lt;h2 id=&#34;titlec学习笔记data2021-01-22tags程序设计语言categories程序设计语言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#titlec学习笔记data2021-01-22tags程序设计语言categories程序设计语言&#34;&gt;#&lt;/a&gt; title:C++ 学习笔记&lt;br&gt;
- data:2021-01-22&lt;br&gt;
-tags: 程序设计语言&lt;br&gt;
- categories：程序设计语言&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;day 1&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+        <content type="html">&lt;p&gt;&lt;strong&gt;&lt;u&gt;day 1&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;计算机语言的分类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#计算机语言的分类&#34;&gt;#&lt;/a&gt; 计算机语言的分类&lt;/h1&gt;
 &lt;h2 id=&#34;两种翻译&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#两种翻译&#34;&gt;#&lt;/a&gt; 两种 “翻译”&lt;/h2&gt;
@@ -327,6 +324,7 @@ tags: 程序设计语言&lt;br&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 </content>
+        <category term="程序设计语言" />
         <updated>2022-01-09T12:02:30.033Z</updated>
     </entry>
     <entry>
