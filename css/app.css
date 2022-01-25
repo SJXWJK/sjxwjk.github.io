@@ -2521,6 +2521,12 @@ main >.inner {
 .social .item.email i {
   color: #55acd5;
 }
+.social .item.kuailian::before {
+  background-color: kyp;
+}
+.social .item.kuailian i {
+  color: kyp;
+}
 .social .item:focus i,
 .social .item:hover i {
   color: var(--grey-0);
