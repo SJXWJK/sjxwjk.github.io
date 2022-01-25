@@ -65,6 +65,16 @@
             ]
         },
         {
+            "id": "https://sjxwjk.github.io/2022/01/10/%E9%9D%A2%E8%AF%95/%E9%95%BF%E6%98%A5%E5%BE%84%E7%82%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%20%E9%9D%A2%E8%AF%95%EF%BC%882022.1.24%EF%BC%89%20/",
+            "url": "https://sjxwjk.github.io/2022/01/10/%E9%9D%A2%E8%AF%95/%E9%95%BF%E6%98%A5%E5%BE%84%E7%82%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%20%E9%9D%A2%E8%AF%95%EF%BC%882022.1.24%EF%BC%89%20/",
+            "title": "长春径点科技有限公司 面试",
+            "date_published": "2022-01-10T10:19:27.158Z",
+            "content_html": "<h2 id=\"长春径点科技有限公司-软件测试-面试2022124\"><a class=\"markdownIt-Anchor\" href=\"#长春径点科技有限公司-软件测试-面试2022124\">#</a> 长春径点科技有限公司 - 软件测试 面试（2022.1.24）</h2>\n<div class=\"note warning\">\n<p>第一次正式面试，我很蠢。</p>\n</div>\n<h3 id=\"问题总结\"><a class=\"markdownIt-Anchor\" href=\"#问题总结\">#</a> 问题总结</h3>\n<p>1. 你先进行一下自我介绍吧！</p>\n<p>2. 你理解 ip 么？</p>\n<p>3. 你用过微信传输助手吗？如果你进行测试测试点怎么考虑？</p>\n<p>4. 你了解虚拟机吗？</p>\n<p>5. 用过 sql server 么？还记得查询语句么？</p>\n<p>6. 你理解测试流程么？你对迭代测试的理解？集成测试的理解？</p>\n<p>7. 你自学过什么技术么？</p>\n<p>8. 你之前做过前端岗位，为什么想做测试？</p>\n<p>9. 薪资问题。</p>\n",
+            "tags": [
+                "面试"
+            ]
+        },
+        {
             "id": "https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/",
             "url": "https://sjxwjk.github.io/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/",
             "title": "jmeter （持续更新",
@@ -75,14 +85,6 @@
             ]
         },
         {
-            "id": "https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/",
-            "url": "https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/",
-            "title": "公告",
-            "date_published": "2022-01-09T12:02:30.033Z",
-            "content_html": "<p>本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。<br>\n故，可能有时间问题导致博客内容失效。</p>\n",
-            "tags": []
-        },
-        {
             "id": "https://sjxwjk.github.io/2022/01/09/C++/title:C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/",
             "url": "https://sjxwjk.github.io/2022/01/09/C++/title:C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/",
             "title": "C++学习笔记",
@@ -91,6 +93,14 @@
             "tags": [
                 "程序设计语言"
             ]
+        },
+        {
+            "id": "https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/",
+            "url": "https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/",
+            "title": "公告",
+            "date_published": "2022-01-09T12:02:30.033Z",
+            "content_html": "<p>本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。<br>\n故，可能有时间问题导致博客内容失效。</p>\n",
+            "tags": []
         },
         {
             "id": "https://sjxwjk.github.io/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/",
