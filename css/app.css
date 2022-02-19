@@ -2522,10 +2522,10 @@ main >.inner {
   color: #55acd5;
 }
 .social .item.kuailian::before {
-  background-color: agi;
+  background-color: aper-plane ||"#56adc7ß;
 }
 .social .item.kuailian i {
-  color: agi;
+  color: aper-plane ||"#56adc7ß;
 }
 .social .item:focus i,
 .social .item:hover i {
