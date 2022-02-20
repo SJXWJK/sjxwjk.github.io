@@ -6,11 +6,11 @@
     <updated>2022-01-11T05:57:33.962Z</updated>
     <category term="citespace" />
     <category term="搭建博客相关" />
+    <category term="程序设计语言" />
     <category term="常用" />
     <category term="面试" />
-    <category term="程序设计语言" />
-    <category term="测试" />
     <category term="八阿哥" />
+    <category term="测试" />
     <entry>
         <id>https://sjxwjk.github.io/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</id>
         <title>Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床</title>
