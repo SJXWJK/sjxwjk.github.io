@@ -1,0 +1,653 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="苜蓿·莱" href="https://sjxwjk.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="苜蓿·莱" href="https://sjxwjk.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="苜蓿·莱" href="https://sjxwjk.github.io/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="python" />
+
+
+<link rel="canonical" href="https://sjxwjk.github.io/2022/01/11/school/24%E7%82%B9/">
+
+
+
+  <title>
+24点游戏（自动生成随机数） - python |
+周周的苜蓿园 = 苜蓿·莱</title>
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">24点游戏（自动生成随机数）
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2022-01-11 13:57:33">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2022-01-11T13:57:33+08:00">2022-01-11</time>
+  </span>
+  <span class="item" title="本文字数">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span class="text">本文字数</span>
+    <span>2.3k</span>
+    <span class="text">字</span>
+  </span>
+  <span class="item" title="阅读时长">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span class="text">阅读时长</span>
+    <span>2 分钟</span>
+  </span>
+</div>
+
+
+	 <p id="hitokoto">正在加载一言...</p>
+	
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">周周的苜蓿园</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://zzblogimages.oss-cn-beijing.aliyuncs.com/blograndom/random/433387c3882211ebb6edd017c2d2eca2.jpg?versionId=CAEQHxiBgMCrr7va8xciIGRlNGYxMTZmYjViMDQ1NTM4NDA0MjZhYzNkOGQ1YWQ1"></li>
+          <li class="item" data-background-image="https://zzblogimages.oss-cn-beijing.aliyuncs.com/blograndom/random/40a3d2276cce4ad1be9b8e65f0add0e6.jpg?versionId=CAEQHxiBgMDK1bra8xciIDEwYzA0YjY0Yzc1NDQzZGU5ZGNkYWNiZTYwOWMzY2Nm"></li>
+          <li class="item" data-background-image="https://zzblogimages.oss-cn-beijing.aliyuncs.com/blograndom/random/a6fec42e882111ebb6edd017c2d2eca2.jpg?versionId=CAEQHxiBgIDbsLra8xciIDRiOTg0ZWI3M2U1OTQ3Zjk5MTE2MmM0YTg0YTc2OGEz"></li>
+          <li class="item" data-background-image="https://zzblogimages.oss-cn-beijing.aliyuncs.com/blograndom/random/78108049a1ec401aa6c5741992d5c787.jpg?versionId=CAEQHxiBgMCo6bra8xciIDkzM2QzZTI4ODM3YTQxYTRiNjc2ZGUzNGY1YWY2M2U4"></li>
+          <li class="item" data-background-image="https://zzblogimages.oss-cn-beijing.aliyuncs.com/blograndom/random/b1cd66b2bf77455db13e4144e3fedb21.jpg?versionId=CAEQHxiBgIDe.7na8xciIDY1YTM5Y2VkOWIyODQ5NTQ5OWUyMTNkZDBhODNlNGZi"></li>
+          <li class="item" data-background-image="https://zzblogimages.oss-cn-beijing.aliyuncs.com/blograndom/random/1e96cf452d3e4099932ab5df6871ecc8.jpg?versionId=CAEQHxiBgMCgmrra8xciIDUzMTY5NWYyMTk2NDQwNzE5ZGY4NDI3NDczMTI3MmVi"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/python/" itemprop="item" rel="index" title="分类于 python"><span itemprop="name">python</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="https://sjxwjk.github.io/2022/01/11/school/24%E7%82%B9/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="周周">
+    <meta itemprop="description" content=", 编程&有趣的事物">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="苜蓿·莱">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <blockquote>
+<p>常见游戏规则：<br>
+从扑克中每次取出 4 张牌。使用加减乘除，第一个能得出 24 者为赢。（其中，J 代表 &gt; 11，Q 代表 12，K 代表 13，A 代表 1），按照要求编程解决 24 点游戏。</p>
+</blockquote>
+<p>随机产生四个数字用 python 中的函数进行全排列<br>
+随机数的生成：<br>
+对于 python 随机数的生成，通过导入包来实现，即 import  random<br>
+<img data-src="https://zzblogimages.oss-cn-beijing.aliyuncs.com/202202222143990.png" alt><br>
+ 本程序中因为要生成 4 个（1——13）的整形数字，采用 randint<br>
+ 对四个随机数的全排列：<br>
+对于 python 可以通过 python 的包 itertools 所以不用自己写递归函数实现</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">通俗地讲，就是返回可迭代对象的所有数学全排列方式。</span><br><span class="line">```listCardSet = list(set(itertools.permutations(listCardNum, 4)))#全排列4个数</span><br><span class="line">return  listCardSet</span><br></pre></td></tr></table></figure>
+<p>例如：8,13,3,5 产生的全排列</p>
+<p>(8, 13, 3, 5), (13, 5, 8, 3), (5, 3, 8, 13), (13, 3, 8, 5), (3, 5, 8, 13), (3, 13, 5, 8),</p>
+<p>(3, 5, 13, 8), (5, 3, 13, 8), (8, 13, 5, 3), (8, 5, 13, 3), (8, 3, 5, 13), (5, 8, 3, 13),</p>
+<p>(13, 8, 3, 5), (13, 3, 5, 8), (8, 3, 13, 5), (5, 8, 13, 3), (3, 8, 13, 5), (5, 13, 3, 8),</p>
+<p>(13, 8, 5, 3), (5, 13, 8, 3), (8, 5, 3, 13), (3, 13, 8, 5), (3, 8, 5, 13), (13, 5, 3, 8)</p>
+<p>显示：</p>
+<figure class="highlight plaintext"><figcaption><span>__name__ </span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(&quot;************************欢迎进入24点游戏************************&quot;)</span><br><span class="line">print(&quot;该系统会随机产生四张牌，并帮助您算出可以实现24点的所有算法&quot;)</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://zzblogimages.oss-cn-beijing.aliyuncs.com/202202222146226.png" alt><br>
+代码分析：<br>
+I. 需要的包：</p>
+<figure class="highlight plaintext"><figcaption><span>itertools</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import random</span><br></pre></td></tr></table></figure>
+<p>II. 随机产生数字和全排列：</p>
+<figure class="highlight plaintext"><figcaption><span>card_rand():</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line">    for i in range(4):</span><br><span class="line">        list_random.append(random.randint(1, 13))                    #list.append(obj)</span><br><span class="line">    list_quanpai = list(set(itertools.permutations(list_random, 4)))#全排列4个数</span><br><span class="line">    return  list_quanpai</span><br><span class="line">listCard = card_rand()  # 排列组合结果</span><br><span class="line">#print(listCard)#输出所有排列</span><br><span class="line"></span><br><span class="line">```III. 计算函数：</span><br><span class="line"></span><br><span class="line">```def card_calculate():</span><br><span class="line">    for i in range(len(listCard)):</span><br><span class="line">        list1_Card = listCard[i]</span><br><span class="line"> </span><br><span class="line">        cardOne = list1_Card[0]</span><br><span class="line">        cardTwo = list1_Card[1]</span><br><span class="line">        cardThree = list1_Card[2]</span><br><span class="line">        cardFour = list1_Card[3]  # 得到四张牌的点数</span><br><span class="line">        flag = False  # 标志位</span><br><span class="line">        try:</span><br><span class="line">            for o1 in listOperator:</span><br><span class="line">                resultOne = 0  # 前两个数的运算结果</span><br><span class="line">                if o1 == &quot;+&quot;:</span><br><span class="line">                    resultOne = cardOne+cardTwo</span><br><span class="line">                elif o1 == &quot;-&quot;:</span><br><span class="line">                    resultOne = cardOne-cardTwo</span><br><span class="line">                elif o1 == &quot;*&quot;:</span><br><span class="line">                    resultOne = cardOne*cardTwo</span><br><span class="line">                elif o1 == &quot;/&quot;:</span><br><span class="line">                    resultOne = cardOne/cardTwo</span><br><span class="line">                for o2 in listOperator:</span><br><span class="line">                    resultTwo = 0  # 前三个数的运算结果</span><br><span class="line">                    if o2 == &quot;+&quot;:</span><br><span class="line">                        resultTwo = resultOne + cardThree</span><br><span class="line">                    elif o2 == &quot;-&quot;:</span><br><span class="line">                        resultTwo = resultOne - cardThree</span><br><span class="line">                    elif o2 == &quot;*&quot;:</span><br><span class="line">                        resultTwo = resultOne * cardThree</span><br><span class="line">                    elif o2 == &quot;/&quot;:</span><br><span class="line">                        resultTwo = resultOne / cardThree</span><br><span class="line">                    for o3 in listOperator:</span><br><span class="line">                        resultThree = 0  # 四个数的运算结果</span><br><span class="line">                        resultFinal = 0  # 最后两个数的运算结果</span><br><span class="line">                        if o3 == &quot;+&quot;:</span><br><span class="line">                            resultThree = resultTwo + cardFour</span><br><span class="line">                            resultFinal = cardThree + cardFour</span><br><span class="line">                        elif o3 == &quot;-&quot;:</span><br><span class="line">                            resultThree = resultTwo - cardFour</span><br><span class="line">                            resultFinal = cardThree - cardFour</span><br><span class="line">                        elif o3 == &quot;*&quot;:</span><br><span class="line">                            resultThree = resultTwo * cardFour</span><br><span class="line">                            resultFinal = cardThree * cardFour</span><br><span class="line">                        elif o3 == &quot;/&quot;:</span><br><span class="line">                            resultThree = resultTwo / cardFour</span><br><span class="line">                            resultFinal = cardThree / cardFour</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>源码：<span class="exturl" data-url="aHR0cHM6Ly9kb3dubG9hZC5jc2RuLm5ldC9kb3dubG9hZC9xcV80MTIzMzY0My8xMTExMjAzMw==">https://download.csdn.net/download/qq_41233643/11112033</span></p>
+
+      <div class="tags">
+          <a href="/tags/python/" rel="tag"><i class="ic i-tag"></i> python</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2022-02-22 21:51:38" itemprop="dateModified" datetime="2022-02-22T21:51:38+08:00">2022-02-22</time>
+  </span>
+  <span id="2022/01/11/school/24点/" class="item leancloud_visitors" data-flag-title="24点游戏（自动生成随机数）" title="阅读次数">
+      <span class="icon">
+        <i class="ic i-eye"></i>
+      </span>
+      <span class="text">阅读次数</span>
+      <span class="leancloud-visitors-count"></span>
+      <span class="text">次</span>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="周周 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="周周 支付宝">
+        <p>支付宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>周周 <i class="ic i-at"><em>@</em></i>苜蓿·莱
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="https://sjxwjk.github.io/2022/01/11/school/24%E7%82%B9/" title="24点游戏（自动生成随机数）">https://sjxwjk.github.io/2022/01/11/school/24点/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;zzblogimages.oss-cn-beijing.aliyuncs.com&#x2F;blograndom&#x2F;random&#x2F;27173839_1f36e320d2.jpeg?versionId&#x3D;CAEQHxiBgMCW57ra8xciIGYzYjgyN2VlZGQ5OTRiZjQ5YjczN2M1ZmMwZTMwZGEw" title="一些常用的优秀网站和软件">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>一些常用的优秀网站和软件</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;zzblogimages.oss-cn-beijing.aliyuncs.com&#x2F;blograndom&#x2F;random&#x2F;b92b483bd61e47a29bf34ad71d5ffbda.png?versionId&#x3D;CAEQHxiBgIC.7rra8xciIDIxNGFhNDE2OTg3MDQ1MjE5YWMzMzlhMDRkYTRkYzli" title="Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床">
+  <span class="type">下一篇</span>
+  <span class="category"><i class="ic i-flag"></i> 博客</span>
+  <h3>Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li class="active"><a href="/2022/01/11/school/24%E7%82%B9/" rel="bookmark" title="24点游戏（自动生成随机数）">24点游戏（自动生成随机数）</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="周周"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">周周</p>
+  <div class="description" itemprop="description">编程&有趣的事物</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">12</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">5</span>
+        <span class="name">分类</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">8</span>
+        <span class="name">标签</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3NqeHdqaw==" title="https:&#x2F;&#x2F;github.com&#x2F;sjxwjk"><i class="ic i-github"></i></span>
+      <span class="exturl item email" data-url="bWFpbHRvOmppYXhpbi5zaGFuZ0BvdXRsb29rLmNvbQ==" title="mailto:jiaxin.shang@outlook.com"><i class="ic i-envelope"></i></span>
+      <span class="exturl item kuailian" data-url="aHR0cHM6Ly90cmF2ZWxsaW5ncy5saW5r" title="https:&#x2F;&#x2F;travellings.link"><i class="ic i-paper-plane"></i></span>
+</div>
+<div>
+</div>
+
+
+
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>关于</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
+  </li>
+
+  </ul>
+    
+  <li class="item">
+    <a href="/efile/" rel="section"><i class="ic i-fas fa-book"></i>文件</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>闲</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/movies/" rel="section"><i class="ic i-fa-film"></i>电影</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/books/" rel="section"><i class="ic i-fa-book"></i>书单</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/bangumis/" rel="section"><i class="ic i-bangumis"></i>追番</a>
+  </li>
+
+  </ul>
+    
+  <li class="item">
+    <a href="/photos/" rel="section"><i class="ic i-photos"></i>相册</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/friends/" rel="section"><i class="ic i-heart"></i>友链</a>
+  </li>
+
+
+</ul>
+ <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5muf7c1b87m&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+
+</a>
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
+
+    </li>
+    <li class="percent"></li>
+  </ul>
+
+</div>
+
+
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%8D%9A%E5%AE%A2/" title="分类于 博客">博客</a>
+</div>
+
+    <span><a href="/2022/01/11/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" title="Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床">Mac系统利用阿里云OSS+Mweb+Picgo为基于Hexo的博客搭建图床</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E9%9D%A2%E8%AF%95/" title="分类于 面试">面试</a>
+</div>
+
+    <span><a href="/2022/01/10/%E9%9D%A2%E8%AF%95/%E9%95%BF%E6%98%A5%E5%BE%84%E7%82%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%20%E9%9D%A2%E8%AF%95%EF%BC%882022.1.24%EF%BC%89%20/" title="长春径点科技有限公司 面试">长春径点科技有限公司 面试</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/10/Citespace%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E7%BB%8F%E9%AA%8C%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Citespace使用方法&#x2F;经验（汇总）">Citespace使用方法/经验（汇总）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/12/test/%E7%8E%AF%E5%A2%83/%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="搭建测试环境（持续更新">搭建测试环境（持续更新</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/10/test/%E5%B7%A5%E5%85%B7/Jmeter/" title="jmeter （持续更新">jmeter （持续更新</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/10/daily/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些常用的优秀网站和软件">一些常用的优秀网站和软件</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/09/bug/%E5%B7%A5%E5%85%B7bug/bug2/" title="pip安装更新相关问题">pip安装更新相关问题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80/" title="分类于 程序设计语言">程序设计语言</a>
+</div>
+
+    <span><a href="/2022/01/09/C++/title:C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="C++学习笔记">C++学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/12/test/%E6%96%B9%E6%B3%95/%E7%BC%96%E5%86%99%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="编写测试用例 （持续更新">编写测试用例 （持续更新</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/" title="公告">公告</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+ <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <div class="copyright">
+    
+    &copy; 2021 – 
+    <span itemprop="copyrightYear">2022</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">周周 @ 周周的苜蓿园</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="站点总字数">8k 字</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="站点阅读时长">8 分钟</span>
+  </div>
+  <span id="busuanzi_container_site_uv">
+本站总访问量<span id="busuanzi_value_site_pv"></span>次｜
+
+本站访客数<span id="busuanzi_value_site_uv"></span>人次｜
+
+</span>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2022/01/11/school/24点/',
+    favicon: {
+      show: "（●´3｀●）やれやれだぜ",
+      hide: "(´Д｀)大変だ！"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,
+    copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+          
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+<!-- 一言API -->
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+
+</script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"left","width":180,"height":480},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
