@@ -6,12 +6,12 @@
     <updated>2022-01-17T10:33:18.666Z</updated>
     <category term="citespace" />
     <category term="搭建博客相关" />
+    <category term="python" />
     <category term="程序设计语言" />
     <category term="常用" />
-    <category term="python" />
     <category term="面试" />
-    <category term="八阿哥" />
     <category term="测试" />
+    <category term="八阿哥" />
     <entry>
         <id>https://sjxwjk.github.io/2022/01/17/bug/%E7%A8%8B%E5%BA%8Fbug/bug1/</id>
         <title>eclipse 点击new菜单后没有新建java project的解决方案</title>
@@ -305,7 +305,8 @@ I. 需要的包：&lt;/p&gt;
         <id>https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/</id>
         <title>公告</title>
         <link rel="alternate" href="https://sjxwjk.github.io/2022/01/09/%E7%BD%AE%E9%A1%B6%E5%86%85%E5%AE%B9/"/>
-        <content type="html">&lt;p&gt;本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。&lt;br&gt;
+        <content type="html">&lt;p&gt;我要努力迁移了！！！&lt;br&gt;
+本博客部分内容迁移自 CSDN 博客内容，迁移博客均已标注。&lt;br&gt;
 故，可能有时间问题导致博客内容失效。&lt;/p&gt;
 </content>
         <updated>2022-01-09T12:02:30.033Z</updated>
