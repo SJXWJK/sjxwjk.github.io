@@ -9,22 +9,20 @@
         <lastBuildDate>Mon, 11 Apr 2022 14:28:11 +0800</lastBuildDate>
         <category>citespace</category>
         <category>搭建博客相关</category>
-        <category>面试</category>
-        <category>python</category>
-        <category>常用</category>
+        <category>LeetCode</category>
         <category>程序设计语言</category>
+        <category>常用</category>
+        <category>python</category>
+        <category>面试</category>
         <category>八阿哥</category>
         <category>测试</category>
         <item>
             <guid isPermalink="true">https://sjxwjk.github.io/2022/04/11/%E6%95%B0%E7%BB%84%E7%B1%BB%E5%88%B7%E9%A2%98day1/</guid>
-            <title></title>
+            <title>数组类刷题day1</title>
             <link>https://sjxwjk.github.io/2022/04/11/%E6%95%B0%E7%BB%84%E7%B1%BB%E5%88%B7%E9%A2%98day1/</link>
+            <category>LeetCode</category>
             <pubDate>Mon, 11 Apr 2022 14:28:11 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;title数组类刷题day1data2022-4-11tagsleetcodecategoriesleetcode&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#title数组类刷题day1data2022-4-11tagsleetcodecategoriesleetcode&#34;&gt;#&lt;/a&gt; title: 数组类刷题 day1&lt;br&gt;
-data:2022-4-11&lt;br&gt;
-tags:LeetCode&lt;br&gt;
-categories：LeetCode&lt;/h2&gt;
-&lt;p&gt;努力刷题 day1&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;努力刷题 day1&lt;/p&gt;
 &lt;p&gt;1.LeetCode 704. 二分查找【&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvYmluYXJ5LXNlYXJjaC8=&#34;&gt;传送门&lt;/span&gt;】&lt;br&gt;
 code:&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;class Solution &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    public int search(int[] nums, int target) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        // 避免当 target 小于nums[0] nums[nums.length - 1]时多次循环运算&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if (target &amp;lt; nums[0] || target &amp;gt; nums[nums.length - 1]) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            return -1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        int left = 0, right = nums.length - 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        while (left &amp;lt;= right) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            int mid = left + ((right - left) &amp;gt;&amp;gt; 1);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            if (nums[mid] == target)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                return mid;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            else if (nums[mid] &amp;lt; target)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                left = mid + 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            else if (nums[mid] &amp;gt; target)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                right = mid - 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return -1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
