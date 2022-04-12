@@ -7,10 +7,10 @@
     <category term="citespace" />
     <category term="搭建博客相关" />
     <category term="LeetCode" />
+    <category term="面试" />
     <category term="程序设计语言" />
     <category term="常用" />
     <category term="python" />
-    <category term="面试" />
     <category term="八阿哥" />
     <category term="测试" />
     <entry>
@@ -23,7 +23,7 @@
 &lt;p&gt;code&lt;/p&gt;
 &lt;/div&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;class Solution &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    public int[] sortedSquares(int[] nums) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        for(int i=0;i&amp;lt;nums.length;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            nums[i]=nums[i]*nums[i];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Arrays.sort(nums);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return nums;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;2.LeetCode 209. 长度最小的子数组&lt;/p&gt;
+&lt;p&gt;2.LeetCode 209. 长度最小的子数组&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvbWluaW11bS1zaXplLXN1YmFycmF5LXN1bS8=&#34;&gt;传送门&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&#34;note default&#34;&gt;
 &lt;p&gt;code&lt;/p&gt;
 &lt;/div&gt;
