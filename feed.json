@@ -5,6 +5,16 @@
     "home_page_url": "https://sjxwjk.github.io",
     "items": [
         {
+            "id": "https://sjxwjk.github.io/2022/04/18/%E9%93%BE%E8%A1%A8%E7%B1%BB%E5%88%B7%E9%A2%98day3/",
+            "url": "https://sjxwjk.github.io/2022/04/18/%E9%93%BE%E8%A1%A8%E7%B1%BB%E5%88%B7%E9%A2%98day3/",
+            "title": "链表类刷题day3",
+            "date_published": "2022-04-18T02:49:03.359Z",
+            "content_html": "<p>努力刷题 day3<br>\n1.LeetCode 203. 移除链表元素 <span class=\"exturl\" data-url=\"aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvcmVtb3ZlLWxpbmtlZC1saXN0LWVsZW1lbnRzLw==\">传送门</span></p>\n<div class=\"note default\">\n<p>code</p>\n</div>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br><span class=\"line\">14</span><br><span class=\"line\">15</span><br><span class=\"line\">16</span><br><span class=\"line\">17</span><br><span class=\"line\">18</span><br><span class=\"line\">19</span><br><span class=\"line\">20</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">class Solution &#123;</span><br><span class=\"line\">    public ListNode removeElements(ListNode head, int val) &#123;</span><br><span class=\"line\">        //删除值相同的头结点后，可能新的头结点也值相等，用循环解决</span><br><span class=\"line\">        while(head!=null&amp;&amp;head.val==val)&#123;</span><br><span class=\"line\">            head=head.next;</span><br><span class=\"line\">        &#125;</span><br><span class=\"line\">        if(head==null)</span><br><span class=\"line\">            return head;</span><br><span class=\"line\">        ListNode prev=head;</span><br><span class=\"line\">        //确保当前结点后还有结点</span><br><span class=\"line\">        while(prev.next!=null)&#123;</span><br><span class=\"line\">            if(prev.next.val==val)&#123;</span><br><span class=\"line\">                prev.next=prev.next.next;</span><br><span class=\"line\">            &#125;else&#123;</span><br><span class=\"line\">                prev=prev.next;</span><br><span class=\"line\">            &#125;</span><br><span class=\"line\">        &#125;</span><br><span class=\"line\">        return head;</span><br><span class=\"line\">    &#125;</span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>",
+            "tags": [
+                "LeetCode 链表"
+            ]
+        },
+        {
             "id": "https://sjxwjk.github.io/2022/04/12/%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/",
             "url": "https://sjxwjk.github.io/2022/04/12/%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/",
             "title": "笔试面试总结",

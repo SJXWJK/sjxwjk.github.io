@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sjxwjk.github.io</id>
+    <title>苜蓿·莱 • Posts by &#34;leetcode 链表&#34; category</title>
+    <link href="https://sjxwjk.github.io" />
+    <updated>2022-04-18T02:49:03.359Z</updated>
+    <category term="citespace" />
+    <category term="搭建博客相关" />
+    <category term="LeetCode" />
+    <category term="面试" />
+    <category term="LeetCode 链表" />
+    <category term="程序设计语言" />
+    <category term="python" />
+    <category term="八阿哥" />
+    <category term="常用" />
+    <category term="测试" />
+    <entry>
+        <id>https://sjxwjk.github.io/2022/04/18/%E9%93%BE%E8%A1%A8%E7%B1%BB%E5%88%B7%E9%A2%98day3/</id>
+        <title>链表类刷题day3</title>
+        <link rel="alternate" href="https://sjxwjk.github.io/2022/04/18/%E9%93%BE%E8%A1%A8%E7%B1%BB%E5%88%B7%E9%A2%98day3/"/>
+        <content type="html">&lt;p&gt;努力刷题 day3&lt;br&gt;
+1.LeetCode 203. 移除链表元素 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvcmVtb3ZlLWxpbmtlZC1saXN0LWVsZW1lbnRzLw==&#34;&gt;传送门&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;code&lt;/p&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;class Solution &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    public ListNode removeElements(ListNode head, int val) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //删除值相同的头结点后，可能新的头结点也值相等，用循环解决&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        while(head!=null&amp;amp;&amp;amp;head.val==val)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            head=head.next;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if(head==null)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            return head;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        ListNode prev=head;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //确保当前结点后还有结点&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        while(prev.next!=null)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            if(prev.next.val==val)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                prev.next=prev.next.next;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;#125;else&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                prev=prev.next;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return head;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="LeetCode 链表" />
+        <updated>2022-04-18T02:49:03.359Z</updated>
+    </entry>
+</feed>
