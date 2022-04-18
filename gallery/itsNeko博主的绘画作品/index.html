@@ -8,7 +8,7 @@
             if (pwd && pwd.length > 0) {
                 if (pwd !== CryptoJS.SHA256(prompt('<%- theme.PhotoVerifyPassword.promptMessage %>')).toString(CryptoJS.enc.Hex)) {
                     alert('<%- theme.PhotoVerifyPassword.errorMessage %>');
-                    location.href = '<%- url_for("/")  %>';
+                    location.href = '<%- url_for("/gallery")  %>';
                 }
             }
         })();
@@ -21,6 +21,9 @@
 <!-- 该主题自带的lightGallery.js在图片多的时候会很卡，所以弃用，使用了一个我在网上找的baguetteBox，很轻量级，就是功能少了点 -->
 <script src="<%- theme.libs.js.baguetteBoxJs %>"></script> 
 <style>    
+    #sma {
+        bottom: 150px;
+    }
     .my-gallery .photo img {
         transition: all 0.6s ease-in-out; 
     }     
@@ -56,12 +59,14 @@
     }
     .box {
             position: relative;
+            max-width: 1064px;
         }
     .box img {
         width: 350px;
+        height: 350px;
         vertical-align: top;
         padding: 8px;
-        border-radius: 10px;
+        border-radius: 20px;
         transition: all 0.5s;
     }
     .box img:hover {
@@ -79,6 +84,9 @@
     .biaotiss {
             font-family: MV Boli;
         }   
+    canvas {
+        opacity: 0.3!important;
+    }
     @media only screen and (max-width: 1058px) {
         .box {
             margin-left: 145px;
@@ -108,16 +116,22 @@
 </style>
 
 <div class="tag-title center-align">
-    <div class="miaoshus">
+        <div class="miaoshus">
+            <!-- 福袋按钮 -->
+        <div class="caishendeng">        
+            <div class="guguxian">
+                <img class="caishenpic gugus" src="/medias/spring-img/jiaozi.png" />
+            </div>              
+        </div>
         <div class="title center-align">
             “ <% if (is_home() && config.subtitle && config.subtitle.length > 0) { %>
                 <%= config.subtitle %>
-            <% } else { %>
+             <% } else { %>
                 <%= page.title %>
-            <% } %> ”
+             <% } %> ”
         </div>
         “ <%- theme.gallery.title %> ”
-        “ 这里有光影流年，还有两朵穿衣裳的云，相拥在明天的河岸。”
+        “ 这里有光影流年，还有两朵穿衣裳的云。”
     </div>
 </div>
 
@@ -146,59 +160,23 @@
                         </a>                   
                 <% } %>
             <% } %>
-        </div>
+            </div>
         </div>
     </div>
 </section>
-<script>
-    $(function () {
-        // 获取图片的宽度(200px)
-        let imgWidth = $('.mat').outerWidth(); // 200
-        waterfallHandler();
-        // 瀑布流处理
-        function waterfallHandler() {
-            // 获取图片的列数
-            let column = parseInt($(window).width() / imgWidth);
-            // 高度数组
-            let heightArr = [];
-            for(let i=0; i<column; i++) {
-                heightArr[i] = 0;
-            }
-            // 遍历所有图片进行定位处理
-            $.each($('.mat'), function (index, item) {
-                // 当前元素的高度
-                let itemHeight = $(item).outerHeight();
-                // 高度数组最小的高度
-                let minHeight = Math.min(...heightArr);
-                // 高度数组最小的高度的索引
-                let minIndex = heightArr.indexOf(minHeight);
-                
-                $(item).css({
-                    position: 'absolute',
-                    top: minHeight + 'px',
-                    left: minIndex * imgWidth + 'px'
-                });
-                heightArr[minIndex] += itemHeight;
-            });
-        }
-        // 窗口大小改变
-        $(window).resize(function () {
-            waterfallHandler();
-        });
-    });
-</script>
+
 <script>
     baguetteBox.run('.gallery', {
         // 配置参数
         buttons:Boolean,//是否显示导航按钮。
         noScrollbars:true,//是否在显示时隐藏滚动条。
         titleTag:true,//是否使用图片上的title属性作为图片标题
-        async:false,//是否异步加载文件。
+        async:true,//是否异步加载文件。
     });
 
     start()
         $(window).on('scroll', function(){
-        start();
+         start();
     })
 
     function start(){
@@ -209,7 +187,7 @@
                 loadImg($node);
             }
         });
-    }
+     }
 
     //判断一个元素是不是出现在窗口(视野)
     function isShow($node){
